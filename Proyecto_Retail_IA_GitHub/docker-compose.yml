@@ -1,0 +1,15 @@
+# Docker Compose - Retail Shelf CV
+
+version: "3.8"
+
+services:
+  retail-cv:
+    build: .
+    container_name: retail-shelf-cv
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped

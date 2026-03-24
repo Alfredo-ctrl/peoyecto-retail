@@ -1,0 +1,161 @@
+{
+  "shelves": [
+    {
+      "id": 0,
+      "name": "Abarrotes",
+      "category": "Abarrotes y productos generales",
+      "image": "shelf_abarrotes.png",
+      "products": [
+        {"name": "Cheerios", "qty": 3},
+        {"name": "Honey Nut Cheerios", "qty": 2},
+        {"name": "Frosted Flakes", "qty": 2},
+        {"name": "Hunt's Ketchup", "qty": 2},
+        {"name": "Campbell's Soup", "qty": 12},
+        {"name": "Del Monte Corn", "qty": 3},
+        {"name": "Lays Classic", "qty": 4},
+        {"name": "Doritos", "qty": 5},
+        {"name": "Prego Sauce", "qty": 5}
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Bebidas",
+      "category": "Bebidas, jugos y refrescos",
+      "image": "shelf_bebidas.png",
+      "products": [
+        {"name": "Coca-Cola", "qty": 4},
+        {"name": "Pepsi", "qty": 3},
+        {"name": "Sprite", "qty": 3},
+        {"name": "Mountain Dew", "qty": 3},
+        {"name": "Dasani Water", "qty": 6},
+        {"name": "Aquafina Water", "qty": 6},
+        {"name": "Tropicana Orange", "qty": 6},
+        {"name": "Minute Maid", "qty": 2},
+        {"name": "Red Bull", "qty": 3},
+        {"name": "Monster Energy", "qty": 4}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Snacks",
+      "category": "Snacks, botanas y dulces",
+      "image": "shelf_snacks.png",
+      "products": [
+        {"name": "Lays Classic", "qty": 10},
+        {"name": "Doritos Nacho", "qty": 10},
+        {"name": "Ruffles", "qty": 2},
+        {"name": "Ritz Crackers", "qty": 3},
+        {"name": "Cheez-It", "qty": 3},
+        {"name": "Oreo", "qty": 3},
+        {"name": "Chips Ahoy", "qty": 2},
+        {"name": "Snickers", "qty": 3},
+        {"name": "Hershey's", "qty": 3},
+        {"name": "M&M's", "qty": 2}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Limpieza",
+      "category": "Productos de limpieza e higiene",
+      "image": "shelf_limpieza.png",
+      "products": [
+        {"name": "Dove Shampoo", "qty": 3},
+        {"name": "Pantene", "qty": 3},
+        {"name": "Irish Spring", "qty": 3},
+        {"name": "Head & Shoulders", "qty": 2},
+        {"name": "Colgate", "qty": 4},
+        {"name": "Crest", "qty": 3},
+        {"name": "Sensodyne", "qty": 3},
+        {"name": "Tide", "qty": 2},
+        {"name": "Gain", "qty": 1},
+        {"name": "Seventh Generation", "qty": 1},
+        {"name": "Dawn", "qty": 1},
+        {"name": "Palmolive", "qty": 1},
+        {"name": "Lysol Spray", "qty": 2},
+        {"name": "Windex", "qty": 2},
+        {"name": "Sponges", "qty": 4}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Lacteos",
+      "category": "Lacteos y refrigerados",
+      "image": "shelf_lacteos_new.png",
+      "products": [
+        {"name": "Organic Valley Milk", "qty": 2},
+        {"name": "Stonyfield Yogurt", "qty": 1},
+        {"name": "Clover Milk", "qty": 6},
+        {"name": "Clover Almond Milk", "qty": 2},
+        {"name": "Clover Oat Milk", "qty": 2},
+        {"name": "Chobani Greek Yogurt", "qty": 6},
+        {"name": "Philadelphia Cream Cheese", "qty": 3},
+        {"name": "Tillamook Cheese", "qty": 4},
+        {"name": "Yogurt Cups Assorted", "qty": 12}
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Dulces",
+      "category": "Dulces y confiteria",
+      "image": "shelf_dulces.png",
+      "products": [
+        {"name": "Haribo Goldbears", "qty": 8},
+        {"name": "Sour Patch Kids", "qty": 4},
+        {"name": "Trolli Gummies", "qty": 5},
+        {"name": "Hershey's Bars", "qty": 6},
+        {"name": "Reese's", "qty": 3},
+        {"name": "Snickers", "qty": 4},
+        {"name": "M&M's", "qty": 2},
+        {"name": "Kit Kat", "qty": 2},
+        {"name": "Twix", "qty": 2},
+        {"name": "Milky Way", "qty": 2},
+        {"name": "Skittles", "qty": 5},
+        {"name": "Jolly Rancher", "qty": 2},
+        {"name": "Nerd Ropes", "qty": 2},
+        {"name": "Twizzlers", "qty": 3},
+        {"name": "Fun Dip", "qty": 3},
+        {"name": "Starburst", "qty": 2}
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Higiene",
+      "category": "Higiene personal",
+      "image": "shelf_higiene.png",
+      "products": [
+        {"name": "Aveeno Lotion", "qty": 5},
+        {"name": "Pantene Shampoo", "qty": 3},
+        {"name": "Dove Body Wash", "qty": 5},
+        {"name": "Dove Bar Soap", "qty": 5},
+        {"name": "Dial Soap", "qty": 3},
+        {"name": "Colgate Toothpaste", "qty": 6},
+        {"name": "Sensodyne Toothpaste", "qty": 5},
+        {"name": "Crest Toothpaste", "qty": 4},
+        {"name": "Secret Deodorant", "qty": 3},
+        {"name": "Degree Deodorant", "qty": 3},
+        {"name": "Old Spice", "qty": 2},
+        {"name": "Mane 'n Tail", "qty": 3}
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Cereales",
+      "category": "Cereales y desayuno",
+      "image": "shelf_cereales.png",
+      "products": [
+        {"name": "Cheerios", "qty": 4},
+        {"name": "Frosted Flakes", "qty": 3},
+        {"name": "Lucky Charms", "qty": 3},
+        {"name": "Froot Loops", "qty": 3},
+        {"name": "Cinnamon Toast Crunch", "qty": 3},
+        {"name": "Cocoa Puffs", "qty": 3},
+        {"name": "Honey Bunches of Oats", "qty": 3},
+        {"name": "Rice Krispies", "qty": 3},
+        {"name": "Corn Flakes", "qty": 3},
+        {"name": "Apple Jacks", "qty": 3},
+        {"name": "Raisin Bran", "qty": 3},
+        {"name": "Cap'n Crunch", "qty": 3}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,432 @@
+{
+  "inventory": [
+    {
+      "name": "Del Monte Corn",
+      "section": "Abarrotes",
+      "shelfId": 0,
+      "qty": 9,
+      "avgConfidence": 0.28
+    },
+    {
+      "name": "Campbell's Soup",
+      "section": "Abarrotes",
+      "shelfId": 0,
+      "qty": 36,
+      "avgConfidence": 0.225
+    },
+    {
+      "name": "Doritos",
+      "section": "Abarrotes",
+      "shelfId": 0,
+      "qty": 15,
+      "avgConfidence": 0.201
+    },
+    {
+      "name": "Prego Sauce",
+      "section": "Abarrotes",
+      "shelfId": 0,
+      "qty": 15,
+      "avgConfidence": 0.198
+    },
+    {
+      "name": "Lays Classic",
+      "section": "Abarrotes",
+      "shelfId": 0,
+      "qty": 12,
+      "avgConfidence": 0.227
+    },
+    {
+      "name": "Hunt's Ketchup",
+      "section": "Abarrotes",
+      "shelfId": 0,
+      "qty": 8,
+      "avgConfidence": 0.166
+    },
+    {
+      "name": "Honey Nut Cheerios",
+      "section": "Abarrotes",
+      "shelfId": 0,
+      "qty": 8,
+      "avgConfidence": 0.133
+    },
+    {
+      "name": "Frosted Flakes",
+      "section": "Abarrotes",
+      "shelfId": 0,
+      "qty": 8,
+      "avgConfidence": 0.14
+    },
+    {
+      "name": "Cheerios",
+      "section": "Abarrotes",
+      "shelfId": 0,
+      "qty": 12,
+      "avgConfidence": 0.115
+    },
+    {
+      "name": "Coca-Cola",
+      "section": "Bebidas",
+      "shelfId": 1,
+      "qty": 8,
+      "avgConfidence": 0.256
+    },
+    {
+      "name": "Tropicana Orange",
+      "section": "Bebidas",
+      "shelfId": 1,
+      "qty": 6,
+      "avgConfidence": 0.233
+    },
+    {
+      "name": "Pepsi",
+      "section": "Bebidas",
+      "shelfId": 1,
+      "qty": 6,
+      "avgConfidence": 0.27
+    },
+    {
+      "name": "Sprite",
+      "section": "Bebidas",
+      "shelfId": 1,
+      "qty": 6,
+      "avgConfidence": 0.189
+    },
+    {
+      "name": "Monster Energy",
+      "section": "Bebidas",
+      "shelfId": 1,
+      "qty": 4,
+      "avgConfidence": 0.241
+    },
+    {
+      "name": "Red Bull",
+      "section": "Bebidas",
+      "shelfId": 1,
+      "qty": 3,
+      "avgConfidence": 0.23
+    },
+    {
+      "name": "Aquafina Water",
+      "section": "Bebidas",
+      "shelfId": 1,
+      "qty": 6,
+      "avgConfidence": 0.241
+    },
+    {
+      "name": "Dasani Water",
+      "section": "Bebidas",
+      "shelfId": 1,
+      "qty": 8,
+      "avgConfidence": 0.168
+    },
+    {
+      "name": "Minute Maid",
+      "section": "Bebidas",
+      "shelfId": 1,
+      "qty": 2,
+      "avgConfidence": 0.195
+    },
+    {
+      "name": "Mountain Dew",
+      "section": "Bebidas",
+      "shelfId": 1,
+      "qty": 6,
+      "avgConfidence": 0.144
+    },
+    {
+      "name": "Lays Classic",
+      "section": "Snacks",
+      "shelfId": 2,
+      "qty": 5,
+      "avgConfidence": 0.076
+    },
+    {
+      "name": "Tide",
+      "section": "Limpieza",
+      "shelfId": 3,
+      "qty": 4,
+      "avgConfidence": 0.209
+    },
+    {
+      "name": "Irish Spring",
+      "section": "Limpieza",
+      "shelfId": 3,
+      "qty": 6,
+      "avgConfidence": 0.308
+    },
+    {
+      "name": "Windex",
+      "section": "Limpieza",
+      "shelfId": 3,
+      "qty": 4,
+      "avgConfidence": 0.244
+    },
+    {
+      "name": "Sensodyne",
+      "section": "Limpieza",
+      "shelfId": 3,
+      "qty": 6,
+      "avgConfidence": 0.207
+    },
+    {
+      "name": "Seventh Generation",
+      "section": "Limpieza",
+      "shelfId": 3,
+      "qty": 2,
+      "avgConfidence": 0.307
+    },
+    {
+      "name": "Sponges",
+      "section": "Limpieza",
+      "shelfId": 3,
+      "qty": 8,
+      "avgConfidence": 0.222
+    },
+    {
+      "name": "Dove Shampoo",
+      "section": "Limpieza",
+      "shelfId": 3,
+      "qty": 9,
+      "avgConfidence": 0.183
+    },
+    {
+      "name": "Colgate",
+      "section": "Limpieza",
+      "shelfId": 3,
+      "qty": 8,
+      "avgConfidence": 0.251
+    },
+    {
+      "name": "Head & Shoulders",
+      "section": "Limpieza",
+      "shelfId": 3,
+      "qty": 4,
+      "avgConfidence": 0.293
+    },
+    {
+      "name": "Lysol Spray",
+      "section": "Limpieza",
+      "shelfId": 3,
+      "qty": 4,
+      "avgConfidence": 0.277
+    },
+    {
+      "name": "Crest",
+      "section": "Limpieza",
+      "shelfId": 3,
+      "qty": 6,
+      "avgConfidence": 0.271
+    },
+    {
+      "name": "Palmolive",
+      "section": "Limpieza",
+      "shelfId": 3,
+      "qty": 2,
+      "avgConfidence": 0.164
+    },
+    {
+      "name": "Pantene",
+      "section": "Limpieza",
+      "shelfId": 3,
+      "qty": 7,
+      "avgConfidence": 0.148
+    },
+    {
+      "name": "Dawn",
+      "section": "Limpieza",
+      "shelfId": 3,
+      "qty": 2,
+      "avgConfidence": 0.144
+    },
+    {
+      "name": "Gain",
+      "section": "Limpieza",
+      "shelfId": 3,
+      "qty": 2,
+      "avgConfidence": 0.104
+    },
+    {
+      "name": "Tillamook Cheese",
+      "section": "Lacteos",
+      "shelfId": 4,
+      "qty": 4,
+      "avgConfidence": 0.586
+    },
+    {
+      "name": "Clover Almond Milk",
+      "section": "Lacteos",
+      "shelfId": 4,
+      "qty": 2,
+      "avgConfidence": 0.363
+    },
+    {
+      "name": "Clover Milk",
+      "section": "Lacteos",
+      "shelfId": 4,
+      "qty": 6,
+      "avgConfidence": 0.303
+    },
+    {
+      "name": "Chobani Greek Yogurt",
+      "section": "Lacteos",
+      "shelfId": 4,
+      "qty": 6,
+      "avgConfidence": 0.339
+    },
+    {
+      "name": "Philadelphia Cream Cheese",
+      "section": "Lacteos",
+      "shelfId": 4,
+      "qty": 3,
+      "avgConfidence": 0.269
+    },
+    {
+      "name": "Organic Valley Milk",
+      "section": "Lacteos",
+      "shelfId": 4,
+      "qty": 2,
+      "avgConfidence": 0.33
+    },
+    {
+      "name": "Stonyfield Yogurt",
+      "section": "Lacteos",
+      "shelfId": 4,
+      "qty": 1,
+      "avgConfidence": 0.345
+    },
+    {
+      "name": "Clover Oat Milk",
+      "section": "Lacteos",
+      "shelfId": 4,
+      "qty": 2,
+      "avgConfidence": 0.168
+    },
+    {
+      "name": "Yogurt Cups Assorted",
+      "section": "Lacteos",
+      "shelfId": 4,
+      "qty": 6,
+      "avgConfidence": 0.119
+    },
+    {
+      "name": "Dial Soap",
+      "section": "Higiene",
+      "shelfId": 6,
+      "qty": 9,
+      "avgConfidence": 0.285
+    },
+    {
+      "name": "Colgate Toothpaste",
+      "section": "Higiene",
+      "shelfId": 6,
+      "qty": 18,
+      "avgConfidence": 0.231
+    },
+    {
+      "name": "Crest Toothpaste",
+      "section": "Higiene",
+      "shelfId": 6,
+      "qty": 12,
+      "avgConfidence": 0.198
+    },
+    {
+      "name": "Dove Body Wash",
+      "section": "Higiene",
+      "shelfId": 6,
+      "qty": 15,
+      "avgConfidence": 0.237
+    },
+    {
+      "name": "Dove Bar Soap",
+      "section": "Higiene",
+      "shelfId": 6,
+      "qty": 15,
+      "avgConfidence": 0.248
+    },
+    {
+      "name": "Aveeno Lotion",
+      "section": "Higiene",
+      "shelfId": 6,
+      "qty": 20,
+      "avgConfidence": 0.198
+    },
+    {
+      "name": "Mane 'n Tail",
+      "section": "Higiene",
+      "shelfId": 6,
+      "qty": 9,
+      "avgConfidence": 0.26
+    },
+    {
+      "name": "Pantene Shampoo",
+      "section": "Higiene",
+      "shelfId": 6,
+      "qty": 12,
+      "avgConfidence": 0.173
+    },
+    {
+      "name": "Sensodyne Toothpaste",
+      "section": "Higiene",
+      "shelfId": 6,
+      "qty": 15,
+      "avgConfidence": 0.187
+    },
+    {
+      "name": "Old Spice",
+      "section": "Higiene",
+      "shelfId": 6,
+      "qty": 6,
+      "avgConfidence": 0.162
+    },
+    {
+      "name": "Secret Deodorant",
+      "section": "Higiene",
+      "shelfId": 6,
+      "qty": 9,
+      "avgConfidence": 0.166
+    },
+    {
+      "name": "Degree Deodorant",
+      "section": "Higiene",
+      "shelfId": 6,
+      "qty": 9,
+      "avgConfidence": 0.133
+    },
+    {
+      "name": "Frosted Flakes",
+      "section": "Cereales",
+      "shelfId": 7,
+      "qty": 3,
+      "avgConfidence": 0.087
+    },
+    {
+      "name": "Lucky Charms",
+      "section": "Cereales",
+      "shelfId": 7,
+      "qty": 3,
+      "avgConfidence": 0.086
+    },
+    {
+      "name": "Cinnamon Toast Crunch",
+      "section": "Cereales",
+      "shelfId": 7,
+      "qty": 3,
+      "avgConfidence": 0.071
+    },
+    {
+      "name": "Froot Loops",
+      "section": "Cereales",
+      "shelfId": 7,
+      "qty": 3,
+      "avgConfidence": 0.093
+    },
+    {
+      "name": "Cheerios",
+      "section": "Cereales",
+      "shelfId": 7,
+      "qty": 4,
+      "avgConfidence": 0.073
+    }
+  ],
+  "last_scan": "real_detection"
+}

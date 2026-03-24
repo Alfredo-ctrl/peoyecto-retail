@@ -1,0 +1,5099 @@
+{
+  "Abarrotes": {
+    "total_detections": 123,
+    "catalog_total": 38,
+    "avg_confidence": 0.197,
+    "max_confidence": 0.624,
+    "min_confidence": 0.05,
+    "image_size": [
+      640,
+      640
+    ],
+    "detections": [
+      {
+        "bbox": [
+          575,
+          341,
+          598,
+          378
+        ],
+        "confidence": 0.624,
+        "class": "canned food",
+        "product_name": "Del Monte Corn"
+      },
+      {
+        "bbox": [
+          470,
+          305,
+          496,
+          343
+        ],
+        "confidence": 0.534,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          471,
+          342,
+          496,
+          377
+        ],
+        "confidence": 0.533,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          444,
+          343,
+          469,
+          378
+        ],
+        "confidence": 0.482,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          444,
+          306,
+          469,
+          343
+        ],
+        "confidence": 0.444,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          524,
+          343,
+          549,
+          379
+        ],
+        "confidence": 0.43,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          369,
+          305,
+          393,
+          342
+        ],
+        "confidence": 0.428,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          160,
+          349,
+          179,
+          379
+        ],
+        "confidence": 0.423,
+        "class": "canned food",
+        "product_name": "Doritos"
+      },
+      {
+        "bbox": [
+          180,
+          349,
+          201,
+          379
+        ],
+        "confidence": 0.419,
+        "class": "canned food",
+        "product_name": "Doritos"
+      },
+      {
+        "bbox": [
+          193,
+          416,
+          237,
+          493
+        ],
+        "confidence": 0.405,
+        "class": "canned food",
+        "product_name": "Prego Sauce"
+      },
+      {
+        "bbox": [
+          140,
+          349,
+          159,
+          379
+        ],
+        "confidence": 0.404,
+        "class": "canned food",
+        "product_name": "Lays Classic"
+      },
+      {
+        "bbox": [
+          176,
+          289,
+          195,
+          318
+        ],
+        "confidence": 0.403,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          121,
+          350,
+          140,
+          379
+        ],
+        "confidence": 0.395,
+        "class": "canned food",
+        "product_name": "Lays Classic"
+      },
+      {
+        "bbox": [
+          203,
+          346,
+          225,
+          379
+        ],
+        "confidence": 0.383,
+        "class": "canned food",
+        "product_name": "Prego Sauce"
+      },
+      {
+        "bbox": [
+          597,
+          331,
+          624,
+          378
+        ],
+        "confidence": 0.381,
+        "class": "canned food",
+        "product_name": "Lays Classic"
+      },
+      {
+        "bbox": [
+          180,
+          318,
+          200,
+          349
+        ],
+        "confidence": 0.378,
+        "class": "canned food",
+        "product_name": "Doritos"
+      },
+      {
+        "bbox": [
+          155,
+          289,
+          174,
+          319
+        ],
+        "confidence": 0.362,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          160,
+          319,
+          179,
+          349
+        ],
+        "confidence": 0.361,
+        "class": "canned food",
+        "product_name": "Doritos"
+      },
+      {
+        "bbox": [
+          418,
+          342,
+          443,
+          378
+        ],
+        "confidence": 0.356,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          589,
+          537,
+          620,
+          605
+        ],
+        "confidence": 0.352,
+        "class": "canned food",
+        "product_name": "Hunt's Ketchup"
+      },
+      {
+        "bbox": [
+          524,
+          307,
+          550,
+          344
+        ],
+        "confidence": 0.35,
+        "class": "canned food",
+        "product_name": "Del Monte Corn"
+      },
+      {
+        "bbox": [
+          225,
+          346,
+          248,
+          378
+        ],
+        "confidence": 0.35,
+        "class": "canned food",
+        "product_name": "Prego Sauce"
+      },
+      {
+        "bbox": [
+          319,
+          305,
+          342,
+          342
+        ],
+        "confidence": 0.345,
+        "class": "canned food",
+        "product_name": "Honey Nut Cheerios"
+      },
+      {
+        "bbox": [
+          225,
+          307,
+          248,
+          345
+        ],
+        "confidence": 0.332,
+        "class": "canned food",
+        "product_name": "Prego Sauce"
+      },
+      {
+        "bbox": [
+          140,
+          318,
+          159,
+          349
+        ],
+        "confidence": 0.321,
+        "class": "canned food",
+        "product_name": "Lays Classic"
+      },
+      {
+        "bbox": [
+          393,
+          305,
+          418,
+          341
+        ],
+        "confidence": 0.311,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          498,
+          307,
+          524,
+          344
+        ],
+        "confidence": 0.309,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          84,
+          350,
+          103,
+          380
+        ],
+        "confidence": 0.292,
+        "class": "canned food",
+        "product_name": "Del Monte Corn"
+      },
+      {
+        "bbox": [
+          202,
+          308,
+          225,
+          345
+        ],
+        "confidence": 0.29,
+        "class": "canned food",
+        "product_name": "Doritos"
+      },
+      {
+        "bbox": [
+          550,
+          341,
+          575,
+          378
+        ],
+        "confidence": 0.29,
+        "class": "canned food",
+        "product_name": "Del Monte Corn"
+      },
+      {
+        "bbox": [
+          121,
+          318,
+          140,
+          350
+        ],
+        "confidence": 0.278,
+        "class": "canned food",
+        "product_name": "Lays Classic"
+      },
+      {
+        "bbox": [
+          103,
+          351,
+          121,
+          380
+        ],
+        "confidence": 0.271,
+        "class": "canned food",
+        "product_name": "Del Monte Corn"
+      },
+      {
+        "bbox": [
+          294,
+          342,
+          318,
+          378
+        ],
+        "confidence": 0.268,
+        "class": "canned food",
+        "product_name": "Honey Nut Cheerios"
+      },
+      {
+        "bbox": [
+          498,
+          343,
+          524,
+          379
+        ],
+        "confidence": 0.259,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          248,
+          306,
+          270,
+          343
+        ],
+        "confidence": 0.255,
+        "class": "canned food",
+        "product_name": "Prego Sauce"
+      },
+      {
+        "bbox": [
+          141,
+          415,
+          194,
+          496
+        ],
+        "confidence": 0.254,
+        "class": "canned food",
+        "product_name": "Prego Sauce"
+      },
+      {
+        "bbox": [
+          556,
+          536,
+          589,
+          606
+        ],
+        "confidence": 0.248,
+        "class": "canned food",
+        "product_name": "Frosted Flakes"
+      },
+      {
+        "bbox": [
+          319,
+          342,
+          343,
+          378
+        ],
+        "confidence": 0.238,
+        "class": "canned food",
+        "product_name": "Frosted Flakes"
+      },
+      {
+        "bbox": [
+          102,
+          318,
+          121,
+          351
+        ],
+        "confidence": 0.236,
+        "class": "canned food",
+        "product_name": "Del Monte Corn"
+      },
+      {
+        "bbox": [
+          368,
+          342,
+          393,
+          377
+        ],
+        "confidence": 0.233,
+        "class": "canned food",
+        "product_name": "Hunt's Ketchup"
+      },
+      {
+        "bbox": [
+          343,
+          342,
+          367,
+          377
+        ],
+        "confidence": 0.228,
+        "class": "canned food",
+        "product_name": "Frosted Flakes"
+      },
+      {
+        "bbox": [
+          271,
+          342,
+          294,
+          378
+        ],
+        "confidence": 0.224,
+        "class": "canned food",
+        "product_name": "Cheerios"
+      },
+      {
+        "bbox": [
+          0,
+          318,
+          17,
+          381
+        ],
+        "confidence": 0.223,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          271,
+          306,
+          294,
+          342
+        ],
+        "confidence": 0.222,
+        "class": "canned food",
+        "product_name": "Cheerios"
+      },
+      {
+        "bbox": [
+          429,
+          537,
+          458,
+          605
+        ],
+        "confidence": 0.218,
+        "class": "canned food",
+        "product_name": "Doritos"
+      },
+      {
+        "bbox": [
+          95,
+          516,
+          128,
+          604
+        ],
+        "confidence": 0.216,
+        "class": "sauce bottle",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          188,
+          544,
+          214,
+          602
+        ],
+        "confidence": 0.213,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          12,
+          317,
+          43,
+          381
+        ],
+        "confidence": 0.208,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          273,
+          534,
+          302,
+          603
+        ],
+        "confidence": 0.206,
+        "class": "canned food",
+        "product_name": "Lays Classic"
+      },
+      {
+        "bbox": [
+          243,
+          536,
+          272,
+          603
+        ],
+        "confidence": 0.206,
+        "class": "canned food",
+        "product_name": "Lays Classic"
+      },
+      {
+        "bbox": [
+          128,
+          516,
+          160,
+          603
+        ],
+        "confidence": 0.205,
+        "class": "sauce bottle",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          44,
+          524,
+          73,
+          541
+        ],
+        "confidence": 0.204,
+        "class": "canned food",
+        "product_name": "Hunt's Ketchup"
+      },
+      {
+        "bbox": [
+          491,
+          529,
+          525,
+          605
+        ],
+        "confidence": 0.204,
+        "class": "sauce bottle",
+        "product_name": "Prego Sauce"
+      },
+      {
+        "bbox": [
+          215,
+          541,
+          243,
+          602
+        ],
+        "confidence": 0.199,
+        "class": "canned food",
+        "product_name": "Del Monte Corn"
+      },
+      {
+        "bbox": [
+          248,
+          344,
+          271,
+          378
+        ],
+        "confidence": 0.197,
+        "class": "canned food",
+        "product_name": "Prego Sauce"
+      },
+      {
+        "bbox": [
+          418,
+          306,
+          443,
+          343
+        ],
+        "confidence": 0.196,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          524,
+          537,
+          555,
+          605
+        ],
+        "confidence": 0.194,
+        "class": "canned food",
+        "product_name": "Cheerios"
+      },
+      {
+        "bbox": [
+          83,
+          319,
+          102,
+          351
+        ],
+        "confidence": 0.194,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          459,
+          536,
+          489,
+          605
+        ],
+        "confidence": 0.189,
+        "class": "canned food",
+        "product_name": "Prego Sauce"
+      },
+      {
+        "bbox": [
+          393,
+          341,
+          417,
+          378
+        ],
+        "confidence": 0.188,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          64,
+          351,
+          83,
+          380
+        ],
+        "confidence": 0.187,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          397,
+          536,
+          427,
+          605
+        ],
+        "confidence": 0.181,
+        "class": "canned food",
+        "product_name": "Doritos"
+      },
+      {
+        "bbox": [
+          343,
+          305,
+          368,
+          342
+        ],
+        "confidence": 0.175,
+        "class": "canned food",
+        "product_name": "Hunt's Ketchup"
+      },
+      {
+        "bbox": [
+          44,
+          524,
+          73,
+          541
+        ],
+        "confidence": 0.171,
+        "class": "soup can",
+        "product_name": "Hunt's Ketchup"
+      },
+      {
+        "bbox": [
+          12,
+          317,
+          43,
+          381
+        ],
+        "confidence": 0.166,
+        "class": "sauce bottle",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          365,
+          530,
+          397,
+          604
+        ],
+        "confidence": 0.154,
+        "class": "sauce bottle",
+        "product_name": "Doritos"
+      },
+      {
+        "bbox": [
+          397,
+          536,
+          427,
+          605
+        ],
+        "confidence": 0.15,
+        "class": "sauce bottle",
+        "product_name": "Doritos"
+      },
+      {
+        "bbox": [
+          524,
+          537,
+          555,
+          605
+        ],
+        "confidence": 0.144,
+        "class": "sauce bottle",
+        "product_name": "Cheerios"
+      },
+      {
+        "bbox": [
+          221,
+          530,
+          246,
+          546
+        ],
+        "confidence": 0.142,
+        "class": "canned food",
+        "product_name": "Del Monte Corn"
+      },
+      {
+        "bbox": [
+          64,
+          318,
+          83,
+          351
+        ],
+        "confidence": 0.138,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          302,
+          524,
+          332,
+          604
+        ],
+        "confidence": 0.137,
+        "class": "sauce bottle",
+        "product_name": "Lays Classic"
+      },
+      {
+        "bbox": [
+          146,
+          511,
+          164,
+          552
+        ],
+        "confidence": 0.133,
+        "class": "sauce bottle",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          188,
+          544,
+          215,
+          603
+        ],
+        "confidence": 0.127,
+        "class": "sauce bottle",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          0,
+          204,
+          5,
+          262
+        ],
+        "confidence": 0.121,
+        "class": "canned food",
+        "product_name": "Cheerios"
+      },
+      {
+        "bbox": [
+          332,
+          531,
+          363,
+          604
+        ],
+        "confidence": 0.12,
+        "class": "sauce bottle",
+        "product_name": "Doritos"
+      },
+      {
+        "bbox": [
+          583,
+          330,
+          593,
+          342
+        ],
+        "confidence": 0.118,
+        "class": "canned food",
+        "product_name": "Lays Classic"
+      },
+      {
+        "bbox": [
+          30,
+          534,
+          62,
+          601
+        ],
+        "confidence": 0.116,
+        "class": "sauce bottle",
+        "product_name": "Frosted Flakes"
+      },
+      {
+        "bbox": [
+          215,
+          542,
+          243,
+          603
+        ],
+        "confidence": 0.115,
+        "class": "sauce bottle",
+        "product_name": "Del Monte Corn"
+      },
+      {
+        "bbox": [
+          0,
+          556,
+          29,
+          603
+        ],
+        "confidence": 0.112,
+        "class": "canned food",
+        "product_name": "Honey Nut Cheerios"
+      },
+      {
+        "bbox": [
+          160,
+          544,
+          188,
+          603
+        ],
+        "confidence": 0.102,
+        "class": "sauce bottle",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          602,
+          357,
+          623,
+          378
+        ],
+        "confidence": 0.101,
+        "class": "soup can",
+        "product_name": "Lays Classic"
+      },
+      {
+        "bbox": [
+          0,
+          319,
+          17,
+          381
+        ],
+        "confidence": 0.099,
+        "class": "sauce bottle",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          44,
+          350,
+          64,
+          380
+        ],
+        "confidence": 0.099,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          584,
+          329,
+          604,
+          342
+        ],
+        "confidence": 0.09,
+        "class": "canned food",
+        "product_name": "Lays Classic"
+      },
+      {
+        "bbox": [
+          273,
+          534,
+          302,
+          603
+        ],
+        "confidence": 0.089,
+        "class": "sauce bottle",
+        "product_name": "Lays Classic"
+      },
+      {
+        "bbox": [
+          294,
+          305,
+          318,
+          342
+        ],
+        "confidence": 0.089,
+        "class": "canned food",
+        "product_name": "Cheerios"
+      },
+      {
+        "bbox": [
+          62,
+          535,
+          95,
+          601
+        ],
+        "confidence": 0.086,
+        "class": "sauce bottle",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          511,
+          422,
+          563,
+          492
+        ],
+        "confidence": 0.086,
+        "class": "food package",
+        "product_name": "Cheerios"
+      },
+      {
+        "bbox": [
+          549,
+          528,
+          571,
+          551
+        ],
+        "confidence": 0.085,
+        "class": "sauce bottle",
+        "product_name": "Honey Nut Cheerios"
+      },
+      {
+        "bbox": [
+          581,
+          527,
+          603,
+          551
+        ],
+        "confidence": 0.083,
+        "class": "canned food",
+        "product_name": "Hunt's Ketchup"
+      },
+      {
+        "bbox": [
+          30,
+          533,
+          63,
+          601
+        ],
+        "confidence": 0.081,
+        "class": "soup can",
+        "product_name": "Frosted Flakes"
+      },
+      {
+        "bbox": [
+          580,
+          527,
+          603,
+          551
+        ],
+        "confidence": 0.081,
+        "class": "sauce bottle",
+        "product_name": "Frosted Flakes"
+      },
+      {
+        "bbox": [
+          78,
+          530,
+          102,
+          557
+        ],
+        "confidence": 0.079,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          233,
+          420,
+          282,
+          496
+        ],
+        "confidence": 0.076,
+        "class": "canned food",
+        "product_name": "Prego Sauce"
+      },
+      {
+        "bbox": [
+          0,
+          421,
+          49,
+          498
+        ],
+        "confidence": 0.075,
+        "class": "food package",
+        "product_name": "Doritos"
+      },
+      {
+        "bbox": [
+          44,
+          319,
+          64,
+          351
+        ],
+        "confidence": 0.074,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          279,
+          417,
+          321,
+          491
+        ],
+        "confidence": 0.073,
+        "class": "food package",
+        "product_name": "Prego Sauce"
+      },
+      {
+        "bbox": [
+          45,
+          416,
+          100,
+          495
+        ],
+        "confidence": 0.073,
+        "class": "food package",
+        "product_name": "Doritos"
+      },
+      {
+        "bbox": [
+          484,
+          513,
+          501,
+          550
+        ],
+        "confidence": 0.069,
+        "class": "sauce bottle",
+        "product_name": "Prego Sauce"
+      },
+      {
+        "bbox": [
+          116,
+          511,
+          133,
+          556
+        ],
+        "confidence": 0.069,
+        "class": "sauce bottle",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          222,
+          202,
+          262,
+          261
+        ],
+        "confidence": 0.068,
+        "class": "food package",
+        "product_name": "Honey Nut Cheerios"
+      },
+      {
+        "bbox": [
+          189,
+          239,
+          220,
+          261
+        ],
+        "confidence": 0.067,
+        "class": "soup can",
+        "product_name": "Honey Nut Cheerios"
+      },
+      {
+        "bbox": [
+          262,
+          199,
+          306,
+          262
+        ],
+        "confidence": 0.067,
+        "class": "canned food",
+        "product_name": "Frosted Flakes"
+      },
+      {
+        "bbox": [
+          67,
+          177,
+          150,
+          263
+        ],
+        "confidence": 0.066,
+        "class": "box",
+        "product_name": "Cheerios"
+      },
+      {
+        "bbox": [
+          319,
+          414,
+          370,
+          492
+        ],
+        "confidence": 0.066,
+        "class": "food package",
+        "product_name": "Prego Sauce"
+      },
+      {
+        "bbox": [
+          366,
+          416,
+          417,
+          494
+        ],
+        "confidence": 0.065,
+        "class": "food package",
+        "product_name": "Cheerios"
+      },
+      {
+        "bbox": [
+          158,
+          512,
+          170,
+          545
+        ],
+        "confidence": 0.064,
+        "class": "sauce bottle",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          194,
+          535,
+          218,
+          549
+        ],
+        "confidence": 0.064,
+        "class": "canned food",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          509,
+          205,
+          565,
+          245
+        ],
+        "confidence": 0.062,
+        "class": "food package",
+        "product_name": "Hunt's Ketchup"
+      },
+      {
+        "bbox": [
+          557,
+          421,
+          616,
+          492
+        ],
+        "confidence": 0.062,
+        "class": "food package",
+        "product_name": "Honey Nut Cheerios"
+      },
+      {
+        "bbox": [
+          0,
+          421,
+          50,
+          498
+        ],
+        "confidence": 0.061,
+        "class": "canned food",
+        "product_name": "Doritos"
+      },
+      {
+        "bbox": [
+          540,
+          516,
+          560,
+          538
+        ],
+        "confidence": 0.061,
+        "class": "canned food",
+        "product_name": "Honey Nut Cheerios"
+      },
+      {
+        "bbox": [
+          194,
+          535,
+          219,
+          548
+        ],
+        "confidence": 0.061,
+        "class": "sauce bottle",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          488,
+          521,
+          507,
+          564
+        ],
+        "confidence": 0.061,
+        "class": "sauce bottle",
+        "product_name": "Prego Sauce"
+      },
+      {
+        "bbox": [
+          365,
+          417,
+          417,
+          494
+        ],
+        "confidence": 0.06,
+        "class": "snack bag",
+        "product_name": "Cheerios"
+      },
+      {
+        "bbox": [
+          262,
+          199,
+          306,
+          262
+        ],
+        "confidence": 0.06,
+        "class": "food package",
+        "product_name": "Frosted Flakes"
+      },
+      {
+        "bbox": [
+          94,
+          416,
+          144,
+          494
+        ],
+        "confidence": 0.058,
+        "class": "food package",
+        "product_name": "Doritos"
+      },
+      {
+        "bbox": [
+          185,
+          197,
+          224,
+          262
+        ],
+        "confidence": 0.057,
+        "class": "canned food",
+        "product_name": "Cheerios"
+      },
+      {
+        "bbox": [
+          519,
+          530,
+          538,
+          564
+        ],
+        "confidence": 0.055,
+        "class": "canned food",
+        "product_name": "Prego Sauce"
+      },
+      {
+        "bbox": [
+          570,
+          171,
+          637,
+          228
+        ],
+        "confidence": 0.055,
+        "class": "food package",
+        "product_name": "Campbell's Soup"
+      },
+      {
+        "bbox": [
+          44,
+          416,
+          100,
+          495
+        ],
+        "confidence": 0.054,
+        "class": "canned food",
+        "product_name": "Doritos"
+      },
+      {
+        "bbox": [
+          519,
+          530,
+          538,
+          564
+        ],
+        "confidence": 0.052,
+        "class": "sauce bottle",
+        "product_name": "Cheerios"
+      },
+      {
+        "bbox": [
+          506,
+          240,
+          569,
+          261
+        ],
+        "confidence": 0.05,
+        "class": "food package",
+        "product_name": "Hunt's Ketchup"
+      }
+    ]
+  },
+  "Bebidas": {
+    "total_detections": 55,
+    "catalog_total": 40,
+    "avg_confidence": 0.216,
+    "max_confidence": 0.393,
+    "min_confidence": 0.054,
+    "image_size": [
+      640,
+      640
+    ],
+    "detections": [
+      {
+        "bbox": [
+          280,
+          323,
+          314,
+          411
+        ],
+        "confidence": 0.393,
+        "class": "bottle",
+        "product_name": "Coca-Cola"
+      },
+      {
+        "bbox": [
+          321,
+          223,
+          347,
+          307
+        ],
+        "confidence": 0.389,
+        "class": "bottle",
+        "product_name": "Tropicana Orange"
+      },
+      {
+        "bbox": [
+          246,
+          330,
+          279,
+          411
+        ],
+        "confidence": 0.375,
+        "class": "bottle",
+        "product_name": "Coca-Cola"
+      },
+      {
+        "bbox": [
+          318,
+          326,
+          351,
+          411
+        ],
+        "confidence": 0.351,
+        "class": "bottle",
+        "product_name": "Coca-Cola"
+      },
+      {
+        "bbox": [
+          350,
+          223,
+          376,
+          307
+        ],
+        "confidence": 0.346,
+        "class": "bottle",
+        "product_name": "Tropicana Orange"
+      },
+      {
+        "bbox": [
+          195,
+          107,
+          224,
+          201
+        ],
+        "confidence": 0.32,
+        "class": "bottle",
+        "product_name": "Pepsi"
+      },
+      {
+        "bbox": [
+          213,
+          332,
+          245,
+          411
+        ],
+        "confidence": 0.313,
+        "class": "bottle",
+        "product_name": "Coca-Cola"
+      },
+      {
+        "bbox": [
+          102,
+          106,
+          132,
+          200
+        ],
+        "confidence": 0.312,
+        "class": "bottle",
+        "product_name": "Coca-Cola"
+      },
+      {
+        "bbox": [
+          226,
+          107,
+          254,
+          201
+        ],
+        "confidence": 0.309,
+        "class": "bottle",
+        "product_name": "Sprite"
+      },
+      {
+        "bbox": [
+          285,
+          107,
+          314,
+          201
+        ],
+        "confidence": 0.305,
+        "class": "bottle",
+        "product_name": "Sprite"
+      },
+      {
+        "bbox": [
+          178,
+          331,
+          212,
+          411
+        ],
+        "confidence": 0.302,
+        "class": "bottle",
+        "product_name": "Monster Energy"
+      },
+      {
+        "bbox": [
+          144,
+          330,
+          178,
+          411
+        ],
+        "confidence": 0.299,
+        "class": "bottle",
+        "product_name": "Monster Energy"
+      },
+      {
+        "bbox": [
+          254,
+          108,
+          284,
+          201
+        ],
+        "confidence": 0.298,
+        "class": "bottle",
+        "product_name": "Sprite"
+      },
+      {
+        "bbox": [
+          132,
+          106,
+          162,
+          200
+        ],
+        "confidence": 0.296,
+        "class": "bottle",
+        "product_name": "Pepsi"
+      },
+      {
+        "bbox": [
+          351,
+          327,
+          384,
+          411
+        ],
+        "confidence": 0.293,
+        "class": "bottle",
+        "product_name": "Pepsi"
+      },
+      {
+        "bbox": [
+          0,
+          328,
+          27,
+          413
+        ],
+        "confidence": 0.291,
+        "class": "bottle",
+        "product_name": "Red Bull"
+      },
+      {
+        "bbox": [
+          293,
+          230,
+          320,
+          308
+        ],
+        "confidence": 0.286,
+        "class": "bottle",
+        "product_name": "Aquafina Water"
+      },
+      {
+        "bbox": [
+          163,
+          107,
+          193,
+          200
+        ],
+        "confidence": 0.283,
+        "class": "bottle",
+        "product_name": "Pepsi"
+      },
+      {
+        "bbox": [
+          404,
+          107,
+          434,
+          200
+        ],
+        "confidence": 0.281,
+        "class": "bottle",
+        "product_name": "Dasani Water"
+      },
+      {
+        "bbox": [
+          382,
+          327,
+          417,
+          411
+        ],
+        "confidence": 0.275,
+        "class": "bottle",
+        "product_name": "Pepsi"
+      },
+      {
+        "bbox": [
+          264,
+          231,
+          292,
+          308
+        ],
+        "confidence": 0.272,
+        "class": "bottle",
+        "product_name": "Aquafina Water"
+      },
+      {
+        "bbox": [
+          110,
+          332,
+          144,
+          412
+        ],
+        "confidence": 0.268,
+        "class": "bottle",
+        "product_name": "Monster Energy"
+      },
+      {
+        "bbox": [
+          378,
+          223,
+          406,
+          306
+        ],
+        "confidence": 0.258,
+        "class": "bottle",
+        "product_name": "Tropicana Orange"
+      },
+      {
+        "bbox": [
+          238,
+          230,
+          265,
+          309
+        ],
+        "confidence": 0.253,
+        "class": "bottle",
+        "product_name": "Aquafina Water"
+      },
+      {
+        "bbox": [
+          494,
+          107,
+          527,
+          199
+        ],
+        "confidence": 0.253,
+        "class": "bottle",
+        "product_name": "Dasani Water"
+      },
+      {
+        "bbox": [
+          464,
+          107,
+          496,
+          199
+        ],
+        "confidence": 0.234,
+        "class": "bottle",
+        "product_name": "Dasani Water"
+      },
+      {
+        "bbox": [
+          494,
+          221,
+          521,
+          306
+        ],
+        "confidence": 0.22,
+        "class": "bottle",
+        "product_name": "Minute Maid"
+      },
+      {
+        "bbox": [
+          180,
+          229,
+          208,
+          308
+        ],
+        "confidence": 0.217,
+        "class": "bottle",
+        "product_name": "Aquafina Water"
+      },
+      {
+        "bbox": [
+          374,
+          107,
+          404,
+          200
+        ],
+        "confidence": 0.216,
+        "class": "bottle",
+        "product_name": "Mountain Dew"
+      },
+      {
+        "bbox": [
+          208,
+          230,
+          237,
+          308
+        ],
+        "confidence": 0.215,
+        "class": "bottle",
+        "product_name": "Aquafina Water"
+      },
+      {
+        "bbox": [
+          59,
+          332,
+          76,
+          411
+        ],
+        "confidence": 0.204,
+        "class": "bottle",
+        "product_name": "Red Bull"
+      },
+      {
+        "bbox": [
+          119,
+          228,
+          147,
+          308
+        ],
+        "confidence": 0.203,
+        "class": "bottle",
+        "product_name": "Dasani Water"
+      },
+      {
+        "bbox": [
+          148,
+          228,
+          178,
+          307
+        ],
+        "confidence": 0.2,
+        "class": "bottle",
+        "product_name": "Aquafina Water"
+      },
+      {
+        "bbox": [
+          26,
+          341,
+          58,
+          412
+        ],
+        "confidence": 0.196,
+        "class": "bottle",
+        "product_name": "Red Bull"
+      },
+      {
+        "bbox": [
+          433,
+          104,
+          463,
+          199
+        ],
+        "confidence": 0.187,
+        "class": "bottle",
+        "product_name": "Dasani Water"
+      },
+      {
+        "bbox": [
+          60,
+          106,
+          73,
+          173
+        ],
+        "confidence": 0.172,
+        "class": "bottle",
+        "product_name": "Coca-Cola"
+      },
+      {
+        "bbox": [
+          314,
+          108,
+          344,
+          173
+        ],
+        "confidence": 0.17,
+        "class": "bottle",
+        "product_name": "Mountain Dew"
+      },
+      {
+        "bbox": [
+          466,
+          222,
+          493,
+          306
+        ],
+        "confidence": 0.17,
+        "class": "bottle",
+        "product_name": "Minute Maid"
+      },
+      {
+        "bbox": [
+          438,
+          222,
+          464,
+          306
+        ],
+        "confidence": 0.167,
+        "class": "bottle",
+        "product_name": "Tropicana Orange"
+      },
+      {
+        "bbox": [
+          344,
+          107,
+          373,
+          173
+        ],
+        "confidence": 0.162,
+        "class": "bottle",
+        "product_name": "Mountain Dew"
+      },
+      {
+        "bbox": [
+          408,
+          223,
+          435,
+          306
+        ],
+        "confidence": 0.159,
+        "class": "bottle",
+        "product_name": "Tropicana Orange"
+      },
+      {
+        "bbox": [
+          415,
+          329,
+          450,
+          411
+        ],
+        "confidence": 0.153,
+        "class": "bottle",
+        "product_name": "Pepsi"
+      },
+      {
+        "bbox": [
+          352,
+          438,
+          380,
+          507
+        ],
+        "confidence": 0.146,
+        "class": "bottle",
+        "product_name": "Mountain Dew"
+      },
+      {
+        "bbox": [
+          323,
+          437,
+          351,
+          507
+        ],
+        "confidence": 0.098,
+        "class": "bottle",
+        "product_name": "Mountain Dew"
+      },
+      {
+        "bbox": [
+          127,
+          328,
+          150,
+          371
+        ],
+        "confidence": 0.097,
+        "class": "bottle",
+        "product_name": "Monster Energy"
+      },
+      {
+        "bbox": [
+          453,
+          334,
+          489,
+          410
+        ],
+        "confidence": 0.094,
+        "class": "bottle",
+        "product_name": "Sprite"
+      },
+      {
+        "bbox": [
+          463,
+          223,
+          476,
+          305
+        ],
+        "confidence": 0.077,
+        "class": "bottle",
+        "product_name": "Tropicana Orange"
+      },
+      {
+        "bbox": [
+          27,
+          103,
+          57,
+          200
+        ],
+        "confidence": 0.076,
+        "class": "bottle",
+        "product_name": "Coca-Cola"
+      },
+      {
+        "bbox": [
+          380,
+          432,
+          408,
+          506
+        ],
+        "confidence": 0.071,
+        "class": "bottle",
+        "product_name": "Mountain Dew"
+      },
+      {
+        "bbox": [
+          0,
+          229,
+          22,
+          308
+        ],
+        "confidence": 0.069,
+        "class": "bottle",
+        "product_name": "Dasani Water"
+      },
+      {
+        "bbox": [
+          610,
+          333,
+          640,
+          411
+        ],
+        "confidence": 0.065,
+        "class": "bottle",
+        "product_name": "Sprite"
+      },
+      {
+        "bbox": [
+          488,
+          334,
+          520,
+          410
+        ],
+        "confidence": 0.065,
+        "class": "bottle",
+        "product_name": "Sprite"
+      },
+      {
+        "bbox": [
+          491,
+          435,
+          513,
+          473
+        ],
+        "confidence": 0.058,
+        "class": "bottle",
+        "product_name": "Dasani Water"
+      },
+      {
+        "bbox": [
+          463,
+          436,
+          482,
+          473
+        ],
+        "confidence": 0.056,
+        "class": "bottle",
+        "product_name": "Dasani Water"
+      },
+      {
+        "bbox": [
+          2,
+          106,
+          28,
+          197
+        ],
+        "confidence": 0.054,
+        "class": "bottle",
+        "product_name": "Coca-Cola"
+      }
+    ]
+  },
+  "Snacks": {
+    "total_detections": 5,
+    "catalog_total": 41,
+    "avg_confidence": 0.076,
+    "max_confidence": 0.119,
+    "min_confidence": 0.053,
+    "image_size": [
+      640,
+      640
+    ],
+    "detections": [
+      {
+        "bbox": [
+          273,
+          141,
+          324,
+          207
+        ],
+        "confidence": 0.119,
+        "class": "snack bag",
+        "product_name": "Lays Classic"
+      },
+      {
+        "bbox": [
+          162,
+          485,
+          215,
+          569
+        ],
+        "confidence": 0.079,
+        "class": "snack bag",
+        "product_name": "Lays Classic"
+      },
+      {
+        "bbox": [
+          114,
+          485,
+          165,
+          568
+        ],
+        "confidence": 0.065,
+        "class": "snack bag",
+        "product_name": "Lays Classic"
+      },
+      {
+        "bbox": [
+          122,
+          140,
+          175,
+          208
+        ],
+        "confidence": 0.063,
+        "class": "snack bag",
+        "product_name": "Lays Classic"
+      },
+      {
+        "bbox": [
+          170,
+          313,
+          222,
+          381
+        ],
+        "confidence": 0.053,
+        "class": "snack package",
+        "product_name": "Lays Classic"
+      }
+    ]
+  },
+  "Limpieza": {
+    "total_detections": 74,
+    "catalog_total": 35,
+    "avg_confidence": 0.226,
+    "max_confidence": 0.579,
+    "min_confidence": 0.05,
+    "image_size": [
+      640,
+      640
+    ],
+    "detections": [
+      {
+        "bbox": [
+          43,
+          489,
+          93,
+          598
+        ],
+        "confidence": 0.579,
+        "class": "cleaning bottle",
+        "product_name": "Tide"
+      },
+      {
+        "bbox": [
+          295,
+          373,
+          347,
+          471
+        ],
+        "confidence": 0.448,
+        "class": "detergent",
+        "product_name": "Irish Spring"
+      },
+      {
+        "bbox": [
+          236,
+          366,
+          296,
+          471
+        ],
+        "confidence": 0.427,
+        "class": "cleaning bottle",
+        "product_name": "Irish Spring"
+      },
+      {
+        "bbox": [
+          244,
+          497,
+          286,
+          600
+        ],
+        "confidence": 0.419,
+        "class": "bottle",
+        "product_name": "Windex"
+      },
+      {
+        "bbox": [
+          595,
+          365,
+          637,
+          470
+        ],
+        "confidence": 0.396,
+        "class": "cleaning bottle",
+        "product_name": "Sensodyne"
+      },
+      {
+        "bbox": [
+          93,
+          491,
+          144,
+          599
+        ],
+        "confidence": 0.395,
+        "class": "cleaning bottle",
+        "product_name": "Seventh Generation"
+      },
+      {
+        "bbox": [
+          327,
+          499,
+          368,
+          599
+        ],
+        "confidence": 0.387,
+        "class": "bottle",
+        "product_name": "Sponges"
+      },
+      {
+        "bbox": [
+          169,
+          365,
+          237,
+          471
+        ],
+        "confidence": 0.38,
+        "class": "cleaning bottle",
+        "product_name": "Dove Shampoo"
+      },
+      {
+        "bbox": [
+          368,
+          498,
+          409,
+          599
+        ],
+        "confidence": 0.379,
+        "class": "bottle",
+        "product_name": "Dove Shampoo"
+      },
+      {
+        "bbox": [
+          295,
+          373,
+          347,
+          471
+        ],
+        "confidence": 0.374,
+        "class": "cleaning bottle",
+        "product_name": "Irish Spring"
+      },
+      {
+        "bbox": [
+          445,
+          368,
+          499,
+          470
+        ],
+        "confidence": 0.368,
+        "class": "cleaning bottle",
+        "product_name": "Colgate"
+      },
+      {
+        "bbox": [
+          286,
+          495,
+          326,
+          599
+        ],
+        "confidence": 0.367,
+        "class": "bottle",
+        "product_name": "Sponges"
+      },
+      {
+        "bbox": [
+          346,
+          375,
+          393,
+          470
+        ],
+        "confidence": 0.361,
+        "class": "cleaning bottle",
+        "product_name": "Head & Shoulders"
+      },
+      {
+        "bbox": [
+          254,
+          122,
+          285,
+          216
+        ],
+        "confidence": 0.353,
+        "class": "shampoo bottle",
+        "product_name": "Colgate"
+      },
+      {
+        "bbox": [
+          416,
+          119,
+          451,
+          217
+        ],
+        "confidence": 0.341,
+        "class": "shampoo bottle",
+        "product_name": "Sensodyne"
+      },
+      {
+        "bbox": [
+          193,
+          493,
+          240,
+          600
+        ],
+        "confidence": 0.318,
+        "class": "bottle",
+        "product_name": "Lysol Spray"
+      },
+      {
+        "bbox": [
+          221,
+          122,
+          254,
+          216
+        ],
+        "confidence": 0.294,
+        "class": "shampoo bottle",
+        "product_name": "Head & Shoulders"
+      },
+      {
+        "bbox": [
+          349,
+          119,
+          382,
+          216
+        ],
+        "confidence": 0.287,
+        "class": "shampoo bottle",
+        "product_name": "Crest"
+      },
+      {
+        "bbox": [
+          549,
+          366,
+          594,
+          470
+        ],
+        "confidence": 0.287,
+        "class": "cleaning bottle",
+        "product_name": "Crest"
+      },
+      {
+        "bbox": [
+          393,
+          369,
+          446,
+          470
+        ],
+        "confidence": 0.283,
+        "class": "detergent",
+        "product_name": "Colgate"
+      },
+      {
+        "bbox": [
+          393,
+          369,
+          446,
+          470
+        ],
+        "confidence": 0.278,
+        "class": "cleaning bottle",
+        "product_name": "Colgate"
+      },
+      {
+        "bbox": [
+          501,
+          366,
+          549,
+          470
+        ],
+        "confidence": 0.278,
+        "class": "bottle",
+        "product_name": "Crest"
+      },
+      {
+        "bbox": [
+          28,
+          365,
+          98,
+          471
+        ],
+        "confidence": 0.276,
+        "class": "cleaning bottle",
+        "product_name": "Windex"
+      },
+      {
+        "bbox": [
+          541,
+          248,
+          580,
+          341
+        ],
+        "confidence": 0.274,
+        "class": "bottle",
+        "product_name": "Lysol Spray"
+      },
+      {
+        "bbox": [
+          382,
+          118,
+          417,
+          216
+        ],
+        "confidence": 0.273,
+        "class": "cleaning bottle",
+        "product_name": "Crest"
+      },
+      {
+        "bbox": [
+          346,
+          375,
+          393,
+          471
+        ],
+        "confidence": 0.272,
+        "class": "detergent",
+        "product_name": "Head & Shoulders"
+      },
+      {
+        "bbox": [
+          147,
+          503,
+          191,
+          600
+        ],
+        "confidence": 0.261,
+        "class": "bottle",
+        "product_name": "Lysol Spray"
+      },
+      {
+        "bbox": [
+          99,
+          367,
+          169,
+          471
+        ],
+        "confidence": 0.255,
+        "class": "cleaning bottle",
+        "product_name": "Sponges"
+      },
+      {
+        "bbox": [
+          580,
+          247,
+          616,
+          342
+        ],
+        "confidence": 0.253,
+        "class": "bottle",
+        "product_name": "Lysol Spray"
+      },
+      {
+        "bbox": [
+          549,
+          366,
+          594,
+          470
+        ],
+        "confidence": 0.251,
+        "class": "bottle",
+        "product_name": "Crest"
+      },
+      {
+        "bbox": [
+          505,
+          255,
+          541,
+          342
+        ],
+        "confidence": 0.249,
+        "class": "bottle",
+        "product_name": "Palmolive"
+      },
+      {
+        "bbox": [
+          382,
+          118,
+          417,
+          216
+        ],
+        "confidence": 0.249,
+        "class": "shampoo bottle",
+        "product_name": "Crest"
+      },
+      {
+        "bbox": [
+          159,
+          122,
+          191,
+          217
+        ],
+        "confidence": 0.247,
+        "class": "bottle",
+        "product_name": "Irish Spring"
+      },
+      {
+        "bbox": [
+          93,
+          122,
+          127,
+          217
+        ],
+        "confidence": 0.246,
+        "class": "cleaning bottle",
+        "product_name": "Pantene"
+      },
+      {
+        "bbox": [
+          191,
+          123,
+          222,
+          217
+        ],
+        "confidence": 0.245,
+        "class": "bottle",
+        "product_name": "Head & Shoulders"
+      },
+      {
+        "bbox": [
+          286,
+          495,
+          326,
+          599
+        ],
+        "confidence": 0.244,
+        "class": "cleaning bottle",
+        "product_name": "Sponges"
+      },
+      {
+        "bbox": [
+          25,
+          123,
+          60,
+          217
+        ],
+        "confidence": 0.241,
+        "class": "cleaning bottle",
+        "product_name": "Dove Shampoo"
+      },
+      {
+        "bbox": [
+          316,
+          123,
+          349,
+          216
+        ],
+        "confidence": 0.241,
+        "class": "shampoo bottle",
+        "product_name": "Colgate"
+      },
+      {
+        "bbox": [
+          620,
+          254,
+          640,
+          342
+        ],
+        "confidence": 0.231,
+        "class": "bottle",
+        "product_name": "Windex"
+      },
+      {
+        "bbox": [
+          416,
+          119,
+          451,
+          216
+        ],
+        "confidence": 0.22,
+        "class": "cleaning bottle",
+        "product_name": "Sensodyne"
+      },
+      {
+        "bbox": [
+          479,
+          268,
+          505,
+          342
+        ],
+        "confidence": 0.22,
+        "class": "bottle",
+        "product_name": "Seventh Generation"
+      },
+      {
+        "bbox": [
+          28,
+          365,
+          99,
+          471
+        ],
+        "confidence": 0.217,
+        "class": "bottle",
+        "product_name": "Sponges"
+      },
+      {
+        "bbox": [
+          284,
+          123,
+          317,
+          216
+        ],
+        "confidence": 0.215,
+        "class": "shampoo bottle",
+        "product_name": "Colgate"
+      },
+      {
+        "bbox": [
+          126,
+          121,
+          158,
+          217
+        ],
+        "confidence": 0.214,
+        "class": "bottle",
+        "product_name": "Pantene"
+      },
+      {
+        "bbox": [
+          93,
+          492,
+          144,
+          599
+        ],
+        "confidence": 0.212,
+        "class": "bottle",
+        "product_name": "Dawn"
+      },
+      {
+        "bbox": [
+          221,
+          122,
+          254,
+          216
+        ],
+        "confidence": 0.212,
+        "class": "bottle",
+        "product_name": "Colgate"
+      },
+      {
+        "bbox": [
+          25,
+          123,
+          60,
+          217
+        ],
+        "confidence": 0.2,
+        "class": "detergent",
+        "product_name": "Dove Shampoo"
+      },
+      {
+        "bbox": [
+          169,
+          365,
+          237,
+          471
+        ],
+        "confidence": 0.192,
+        "class": "bottle",
+        "product_name": "Pantene"
+      },
+      {
+        "bbox": [
+          127,
+          122,
+          158,
+          217
+        ],
+        "confidence": 0.181,
+        "class": "cleaning bottle",
+        "product_name": "Irish Spring"
+      },
+      {
+        "bbox": [
+          127,
+          122,
+          158,
+          217
+        ],
+        "confidence": 0.17,
+        "class": "shampoo bottle",
+        "product_name": "Irish Spring"
+      },
+      {
+        "bbox": [
+          99,
+          367,
+          168,
+          471
+        ],
+        "confidence": 0.162,
+        "class": "bottle",
+        "product_name": "Sponges"
+      },
+      {
+        "bbox": [
+          60,
+          123,
+          93,
+          217
+        ],
+        "confidence": 0.147,
+        "class": "cleaning bottle",
+        "product_name": "Dove Shampoo"
+      },
+      {
+        "bbox": [
+          75,
+          499,
+          105,
+          549
+        ],
+        "confidence": 0.131,
+        "class": "bottle",
+        "product_name": "Tide"
+      },
+      {
+        "bbox": [
+          631,
+          360,
+          640,
+          469
+        ],
+        "confidence": 0.13,
+        "class": "bottle",
+        "product_name": "Sensodyne"
+      },
+      {
+        "bbox": [
+          60,
+          123,
+          93,
+          217
+        ],
+        "confidence": 0.127,
+        "class": "detergent",
+        "product_name": "Pantene"
+      },
+      {
+        "bbox": [
+          76,
+          499,
+          105,
+          550
+        ],
+        "confidence": 0.122,
+        "class": "cleaning bottle",
+        "product_name": "Gain"
+      },
+      {
+        "bbox": [
+          631,
+          361,
+          640,
+          469
+        ],
+        "confidence": 0.105,
+        "class": "cleaning bottle",
+        "product_name": "Sensodyne"
+      },
+      {
+        "bbox": [
+          603,
+          494,
+          640,
+          601
+        ],
+        "confidence": 0.102,
+        "class": "bottle",
+        "product_name": "Pantene"
+      },
+      {
+        "bbox": [
+          196,
+          362,
+          245,
+          421
+        ],
+        "confidence": 0.094,
+        "class": "cleaning bottle",
+        "product_name": "Pantene"
+      },
+      {
+        "bbox": [
+          375,
+          546,
+          405,
+          589
+        ],
+        "confidence": 0.087,
+        "class": "bottle",
+        "product_name": "Dove Shampoo"
+      },
+      {
+        "bbox": [
+          517,
+          490,
+          604,
+          601
+        ],
+        "confidence": 0.085,
+        "class": "bottle",
+        "product_name": "Dove Shampoo"
+      },
+      {
+        "bbox": [
+          458,
+          248,
+          480,
+          342
+        ],
+        "confidence": 0.085,
+        "class": "bottle",
+        "product_name": "Gain"
+      },
+      {
+        "bbox": [
+          126,
+          499,
+          153,
+          588
+        ],
+        "confidence": 0.078,
+        "class": "cleaning bottle",
+        "product_name": "Palmolive"
+      },
+      {
+        "bbox": [
+          139,
+          362,
+          173,
+          464
+        ],
+        "confidence": 0.077,
+        "class": "cleaning bottle",
+        "product_name": "Dove Shampoo"
+      },
+      {
+        "bbox": [
+          501,
+          256,
+          518,
+          337
+        ],
+        "confidence": 0.076,
+        "class": "bottle",
+        "product_name": "Dawn"
+      },
+      {
+        "bbox": [
+          290,
+          546,
+          320,
+          591
+        ],
+        "confidence": 0.074,
+        "class": "bottle",
+        "product_name": "Sponges"
+      },
+      {
+        "bbox": [
+          534,
+          249,
+          555,
+          283
+        ],
+        "confidence": 0.074,
+        "class": "bottle",
+        "product_name": "Tide"
+      },
+      {
+        "bbox": [
+          66,
+          360,
+          107,
+          464
+        ],
+        "confidence": 0.07,
+        "class": "bottle",
+        "product_name": "Sponges"
+      },
+      {
+        "bbox": [
+          391,
+          366,
+          417,
+          400
+        ],
+        "confidence": 0.06,
+        "class": "cleaning bottle",
+        "product_name": "Colgate"
+      },
+      {
+        "bbox": [
+          196,
+          362,
+          245,
+          422
+        ],
+        "confidence": 0.06,
+        "class": "bottle",
+        "product_name": "Pantene"
+      },
+      {
+        "bbox": [
+          139,
+          361,
+          173,
+          424
+        ],
+        "confidence": 0.053,
+        "class": "bottle",
+        "product_name": "Dove Shampoo"
+      },
+      {
+        "bbox": [
+          436,
+          247,
+          457,
+          342
+        ],
+        "confidence": 0.053,
+        "class": "bottle",
+        "product_name": "Tide"
+      },
+      {
+        "bbox": [
+          615,
+          155,
+          640,
+          215
+        ],
+        "confidence": 0.051,
+        "class": "bottle",
+        "product_name": "Sensodyne"
+      },
+      {
+        "bbox": [
+          258,
+          489,
+          286,
+          521
+        ],
+        "confidence": 0.05,
+        "class": "cleaning bottle",
+        "product_name": "Windex"
+      }
+    ]
+  },
+  "Lacteos": {
+    "total_detections": 32,
+    "catalog_total": 38,
+    "avg_confidence": 0.306,
+    "max_confidence": 0.719,
+    "min_confidence": 0.054,
+    "image_size": [
+      640,
+      640
+    ],
+    "detections": [
+      {
+        "bbox": [
+          503,
+          236,
+          520,
+          254
+        ],
+        "confidence": 0.719,
+        "class": "cup",
+        "product_name": "Tillamook Cheese"
+      },
+      {
+        "bbox": [
+          503,
+          143,
+          522,
+          161
+        ],
+        "confidence": 0.646,
+        "class": "cup",
+        "product_name": "Clover Almond Milk"
+      },
+      {
+        "bbox": [
+          472,
+          237,
+          490,
+          254
+        ],
+        "confidence": 0.571,
+        "class": "cup",
+        "product_name": "Tillamook Cheese"
+      },
+      {
+        "bbox": [
+          441,
+          143,
+          458,
+          161
+        ],
+        "confidence": 0.566,
+        "class": "cup",
+        "product_name": "Clover Milk"
+      },
+      {
+        "bbox": [
+          442,
+          236,
+          459,
+          254
+        ],
+        "confidence": 0.537,
+        "class": "cup",
+        "product_name": "Tillamook Cheese"
+      },
+      {
+        "bbox": [
+          411,
+          237,
+          428,
+          254
+        ],
+        "confidence": 0.516,
+        "class": "cup",
+        "product_name": "Tillamook Cheese"
+      },
+      {
+        "bbox": [
+          301,
+          184,
+          334,
+          254
+        ],
+        "confidence": 0.49,
+        "class": "milk jug",
+        "product_name": "Chobani Greek Yogurt"
+      },
+      {
+        "bbox": [
+          380,
+          237,
+          397,
+          254
+        ],
+        "confidence": 0.472,
+        "class": "cup",
+        "product_name": "Philadelphia Cream Cheese"
+      },
+      {
+        "bbox": [
+          408,
+          144,
+          424,
+          161
+        ],
+        "confidence": 0.466,
+        "class": "cup",
+        "product_name": "Clover Milk"
+      },
+      {
+        "bbox": [
+          473,
+          144,
+          491,
+          161
+        ],
+        "confidence": 0.429,
+        "class": "cup",
+        "product_name": "Clover Milk"
+      },
+      {
+        "bbox": [
+          234,
+          134,
+          255,
+          153
+        ],
+        "confidence": 0.359,
+        "class": "cup",
+        "product_name": "Organic Valley Milk"
+      },
+      {
+        "bbox": [
+          343,
+          143,
+          359,
+          161
+        ],
+        "confidence": 0.345,
+        "class": "cup",
+        "product_name": "Stonyfield Yogurt"
+      },
+      {
+        "bbox": [
+          193,
+          183,
+          231,
+          254
+        ],
+        "confidence": 0.332,
+        "class": "milk jug",
+        "product_name": "Chobani Greek Yogurt"
+      },
+      {
+        "bbox": [
+          156,
+          182,
+          194,
+          254
+        ],
+        "confidence": 0.324,
+        "class": "milk jug",
+        "product_name": "Chobani Greek Yogurt"
+      },
+      {
+        "bbox": [
+          118,
+          182,
+          156,
+          254
+        ],
+        "confidence": 0.302,
+        "class": "milk jug",
+        "product_name": "Chobani Greek Yogurt"
+      },
+      {
+        "bbox": [
+          267,
+          133,
+          288,
+          153
+        ],
+        "confidence": 0.3,
+        "class": "cup",
+        "product_name": "Organic Valley Milk"
+      },
+      {
+        "bbox": [
+          266,
+          183,
+          300,
+          254
+        ],
+        "confidence": 0.296,
+        "class": "milk jug",
+        "product_name": "Chobani Greek Yogurt"
+      },
+      {
+        "bbox": [
+          231,
+          183,
+          266,
+          254
+        ],
+        "confidence": 0.29,
+        "class": "milk jug",
+        "product_name": "Chobani Greek Yogurt"
+      },
+      {
+        "bbox": [
+          100,
+          182,
+          118,
+          255
+        ],
+        "confidence": 0.228,
+        "class": "milk jug",
+        "product_name": "Clover Oat Milk"
+      },
+      {
+        "bbox": [
+          375,
+          143,
+          391,
+          161
+        ],
+        "confidence": 0.204,
+        "class": "cup",
+        "product_name": "Clover Milk"
+      },
+      {
+        "bbox": [
+          336,
+          208,
+          366,
+          254
+        ],
+        "confidence": 0.186,
+        "class": "bottle",
+        "product_name": "Philadelphia Cream Cheese"
+      },
+      {
+        "bbox": [
+          158,
+          281,
+          176,
+          333
+        ],
+        "confidence": 0.166,
+        "class": "bottle",
+        "product_name": "Yogurt Cups Assorted"
+      },
+      {
+        "bbox": [
+          141,
+          280,
+          159,
+          333
+        ],
+        "confidence": 0.155,
+        "class": "bottle",
+        "product_name": "Yogurt Cups Assorted"
+      },
+      {
+        "bbox": [
+          336,
+          208,
+          366,
+          254
+        ],
+        "confidence": 0.149,
+        "class": "milk jug",
+        "product_name": "Philadelphia Cream Cheese"
+      },
+      {
+        "bbox": [
+          176,
+          280,
+          198,
+          333
+        ],
+        "confidence": 0.137,
+        "class": "bottle",
+        "product_name": "Yogurt Cups Assorted"
+      },
+      {
+        "bbox": [
+          119,
+          280,
+          141,
+          333
+        ],
+        "confidence": 0.108,
+        "class": "bottle",
+        "product_name": "Yogurt Cups Assorted"
+      },
+      {
+        "bbox": [
+          100,
+          182,
+          118,
+          255
+        ],
+        "confidence": 0.108,
+        "class": "bottle",
+        "product_name": "Clover Oat Milk"
+      },
+      {
+        "bbox": [
+          495,
+          91,
+          527,
+          161
+        ],
+        "confidence": 0.094,
+        "class": "bottle",
+        "product_name": "Clover Milk"
+      },
+      {
+        "bbox": [
+          101,
+          284,
+          116,
+          333
+        ],
+        "confidence": 0.091,
+        "class": "bottle",
+        "product_name": "Yogurt Cups Assorted"
+      },
+      {
+        "bbox": [
+          527,
+          91,
+          541,
+          163
+        ],
+        "confidence": 0.081,
+        "class": "bottle",
+        "product_name": "Clover Almond Milk"
+      },
+      {
+        "bbox": [
+          464,
+          92,
+          496,
+          161
+        ],
+        "confidence": 0.056,
+        "class": "bottle",
+        "product_name": "Clover Milk"
+      },
+      {
+        "bbox": [
+          462,
+          550,
+          496,
+          577
+        ],
+        "confidence": 0.054,
+        "class": "cup",
+        "product_name": "Yogurt Cups Assorted"
+      }
+    ]
+  },
+  "Dulces": {
+    "total_detections": 0,
+    "catalog_total": 55,
+    "avg_confidence": 0,
+    "max_confidence": 0,
+    "min_confidence": 0,
+    "image_size": [
+      640,
+      640
+    ],
+    "detections": []
+  },
+  "Higiene": {
+    "total_detections": 149,
+    "catalog_total": 47,
+    "avg_confidence": 0.21,
+    "max_confidence": 0.673,
+    "min_confidence": 0.052,
+    "image_size": [
+      640,
+      640
+    ],
+    "detections": [
+      {
+        "bbox": [
+          352,
+          31,
+          380,
+          102
+        ],
+        "confidence": 0.673,
+        "class": "shampoo bottle",
+        "product_name": "Dial Soap"
+      },
+      {
+        "bbox": [
+          323,
+          31,
+          350,
+          102
+        ],
+        "confidence": 0.576,
+        "class": "shampoo bottle",
+        "product_name": "Dial Soap"
+      },
+      {
+        "bbox": [
+          413,
+          38,
+          445,
+          101
+        ],
+        "confidence": 0.562,
+        "class": "shampoo bottle",
+        "product_name": "Colgate Toothpaste"
+      },
+      {
+        "bbox": [
+          132,
+          510,
+          151,
+          566
+        ],
+        "confidence": 0.515,
+        "class": "shampoo bottle",
+        "product_name": "Crest Toothpaste"
+      },
+      {
+        "bbox": [
+          380,
+          38,
+          413,
+          101
+        ],
+        "confidence": 0.496,
+        "class": "shampoo bottle",
+        "product_name": "Dial Soap"
+      },
+      {
+        "bbox": [
+          473,
+          427,
+          492,
+          483
+        ],
+        "confidence": 0.466,
+        "class": "body wash",
+        "product_name": "Dove Body Wash"
+      },
+      {
+        "bbox": [
+          444,
+          38,
+          477,
+          101
+        ],
+        "confidence": 0.452,
+        "class": "shampoo bottle",
+        "product_name": "Colgate Toothpaste"
+      },
+      {
+        "bbox": [
+          473,
+          427,
+          492,
+          483
+        ],
+        "confidence": 0.447,
+        "class": "shampoo bottle",
+        "product_name": "Dove Bar Soap"
+      },
+      {
+        "bbox": [
+          294,
+          31,
+          321,
+          102
+        ],
+        "confidence": 0.391,
+        "class": "shampoo bottle",
+        "product_name": "Dove Bar Soap"
+      },
+      {
+        "bbox": [
+          447,
+          130,
+          478,
+          193
+        ],
+        "confidence": 0.387,
+        "class": "body wash",
+        "product_name": "Aveeno Lotion"
+      },
+      {
+        "bbox": [
+          415,
+          130,
+          446,
+          193
+        ],
+        "confidence": 0.386,
+        "class": "shampoo bottle",
+        "product_name": "Aveeno Lotion"
+      },
+      {
+        "bbox": [
+          447,
+          130,
+          478,
+          193
+        ],
+        "confidence": 0.374,
+        "class": "shampoo bottle",
+        "product_name": "Aveeno Lotion"
+      },
+      {
+        "bbox": [
+          415,
+          130,
+          447,
+          193
+        ],
+        "confidence": 0.367,
+        "class": "body wash",
+        "product_name": "Aveeno Lotion"
+      },
+      {
+        "bbox": [
+          511,
+          434,
+          526,
+          483
+        ],
+        "confidence": 0.362,
+        "class": "shampoo bottle",
+        "product_name": "Dove Bar Soap"
+      },
+      {
+        "bbox": [
+          353,
+          122,
+          382,
+          193
+        ],
+        "confidence": 0.356,
+        "class": "shampoo bottle",
+        "product_name": "Mane 'n Tail"
+      },
+      {
+        "bbox": [
+          377,
+          221,
+          401,
+          274
+        ],
+        "confidence": 0.35,
+        "class": "shampoo bottle",
+        "product_name": "Dove Body Wash"
+      },
+      {
+        "bbox": [
+          444,
+          38,
+          477,
+          101
+        ],
+        "confidence": 0.346,
+        "class": "body wash",
+        "product_name": "Colgate Toothpaste"
+      },
+      {
+        "bbox": [
+          302,
+          499,
+          318,
+          567
+        ],
+        "confidence": 0.345,
+        "class": "shampoo bottle",
+        "product_name": "Mane 'n Tail"
+      },
+      {
+        "bbox": [
+          413,
+          38,
+          445,
+          101
+        ],
+        "confidence": 0.343,
+        "class": "body wash",
+        "product_name": "Colgate Toothpaste"
+      },
+      {
+        "bbox": [
+          510,
+          126,
+          542,
+          193
+        ],
+        "confidence": 0.343,
+        "class": "body wash",
+        "product_name": "Pantene Shampoo"
+      },
+      {
+        "bbox": [
+          383,
+          130,
+          415,
+          193
+        ],
+        "confidence": 0.339,
+        "class": "shampoo bottle",
+        "product_name": "Mane 'n Tail"
+      },
+      {
+        "bbox": [
+          380,
+          38,
+          413,
+          101
+        ],
+        "confidence": 0.331,
+        "class": "body wash",
+        "product_name": "Colgate Toothpaste"
+      },
+      {
+        "bbox": [
+          494,
+          435,
+          509,
+          483
+        ],
+        "confidence": 0.33,
+        "class": "shampoo bottle",
+        "product_name": "Dove Bar Soap"
+      },
+      {
+        "bbox": [
+          70,
+          509,
+          85,
+          567
+        ],
+        "confidence": 0.326,
+        "class": "shampoo bottle",
+        "product_name": "Colgate Toothpaste"
+      },
+      {
+        "bbox": [
+          542,
+          126,
+          574,
+          193
+        ],
+        "confidence": 0.324,
+        "class": "body wash",
+        "product_name": "Pantene Shampoo"
+      },
+      {
+        "bbox": [
+          477,
+          126,
+          511,
+          193
+        ],
+        "confidence": 0.319,
+        "class": "body wash",
+        "product_name": "Pantene Shampoo"
+      },
+      {
+        "bbox": [
+          509,
+          36,
+          540,
+          101
+        ],
+        "confidence": 0.316,
+        "class": "body wash",
+        "product_name": "Sensodyne Toothpaste"
+      },
+      {
+        "bbox": [
+          383,
+          130,
+          415,
+          193
+        ],
+        "confidence": 0.312,
+        "class": "body wash",
+        "product_name": "Aveeno Lotion"
+      },
+      {
+        "bbox": [
+          352,
+          221,
+          376,
+          275
+        ],
+        "confidence": 0.312,
+        "class": "shampoo bottle",
+        "product_name": "Dove Body Wash"
+      },
+      {
+        "bbox": [
+          265,
+          31,
+          293,
+          102
+        ],
+        "confidence": 0.311,
+        "class": "shampoo bottle",
+        "product_name": "Dove Bar Soap"
+      },
+      {
+        "bbox": [
+          323,
+          122,
+          352,
+          193
+        ],
+        "confidence": 0.307,
+        "class": "shampoo bottle",
+        "product_name": "Old Spice"
+      },
+      {
+        "bbox": [
+          453,
+          427,
+          474,
+          483
+        ],
+        "confidence": 0.298,
+        "class": "shampoo bottle",
+        "product_name": "Dove Body Wash"
+      },
+      {
+        "bbox": [
+          242,
+          32,
+          266,
+          102
+        ],
+        "confidence": 0.295,
+        "class": "shampoo bottle",
+        "product_name": "Dove Bar Soap"
+      },
+      {
+        "bbox": [
+          476,
+          36,
+          510,
+          101
+        ],
+        "confidence": 0.29,
+        "class": "body wash",
+        "product_name": "Colgate Toothpaste"
+      },
+      {
+        "bbox": [
+          70,
+          509,
+          85,
+          566
+        ],
+        "confidence": 0.287,
+        "class": "body wash",
+        "product_name": "Colgate Toothpaste"
+      },
+      {
+        "bbox": [
+          70,
+          436,
+          92,
+          483
+        ],
+        "confidence": 0.283,
+        "class": "shampoo bottle",
+        "product_name": "Secret Deodorant"
+      },
+      {
+        "bbox": [
+          296,
+          430,
+          319,
+          483
+        ],
+        "confidence": 0.278,
+        "class": "shampoo bottle",
+        "product_name": "Mane 'n Tail"
+      },
+      {
+        "bbox": [
+          221,
+          32,
+          243,
+          102
+        ],
+        "confidence": 0.276,
+        "class": "shampoo bottle",
+        "product_name": "Dove Body Wash"
+      },
+      {
+        "bbox": [
+          377,
+          221,
+          401,
+          275
+        ],
+        "confidence": 0.273,
+        "class": "body wash",
+        "product_name": "Dove Body Wash"
+      },
+      {
+        "bbox": [
+          203,
+          121,
+          233,
+          193
+        ],
+        "confidence": 0.267,
+        "class": "body wash",
+        "product_name": "Crest Toothpaste"
+      },
+      {
+        "bbox": [
+          302,
+          499,
+          318,
+          567
+        ],
+        "confidence": 0.265,
+        "class": "body wash",
+        "product_name": "Mane 'n Tail"
+      },
+      {
+        "bbox": [
+          116,
+          509,
+          131,
+          566
+        ],
+        "confidence": 0.264,
+        "class": "shampoo bottle",
+        "product_name": "Sensodyne Toothpaste"
+      },
+      {
+        "bbox": [
+          548,
+          434,
+          569,
+          483
+        ],
+        "confidence": 0.262,
+        "class": "shampoo bottle",
+        "product_name": "Dial Soap"
+      },
+      {
+        "bbox": [
+          323,
+          122,
+          352,
+          193
+        ],
+        "confidence": 0.26,
+        "class": "body wash",
+        "product_name": "Mane 'n Tail"
+      },
+      {
+        "bbox": [
+          402,
+          218,
+          429,
+          275
+        ],
+        "confidence": 0.252,
+        "class": "shampoo bottle",
+        "product_name": "Dove Body Wash"
+      },
+      {
+        "bbox": [
+          203,
+          121,
+          234,
+          193
+        ],
+        "confidence": 0.248,
+        "class": "shampoo bottle",
+        "product_name": "Secret Deodorant"
+      },
+      {
+        "bbox": [
+          235,
+          121,
+          264,
+          193
+        ],
+        "confidence": 0.24,
+        "class": "shampoo bottle",
+        "product_name": "Secret Deodorant"
+      },
+      {
+        "bbox": [
+          235,
+          121,
+          264,
+          193
+        ],
+        "confidence": 0.234,
+        "class": "body wash",
+        "product_name": "Secret Deodorant"
+      },
+      {
+        "bbox": [
+          168,
+          123,
+          201,
+          193
+        ],
+        "confidence": 0.234,
+        "class": "body wash",
+        "product_name": "Crest Toothpaste"
+      },
+      {
+        "bbox": [
+          296,
+          430,
+          319,
+          483
+        ],
+        "confidence": 0.233,
+        "class": "body wash",
+        "product_name": "Mane 'n Tail"
+      },
+      {
+        "bbox": [
+          494,
+          435,
+          509,
+          483
+        ],
+        "confidence": 0.232,
+        "class": "body wash",
+        "product_name": "Dove Bar Soap"
+      },
+      {
+        "bbox": [
+          264,
+          121,
+          293,
+          193
+        ],
+        "confidence": 0.231,
+        "class": "body wash",
+        "product_name": "Degree Deodorant"
+      },
+      {
+        "bbox": [
+          264,
+          121,
+          293,
+          193
+        ],
+        "confidence": 0.229,
+        "class": "shampoo bottle",
+        "product_name": "Degree Deodorant"
+      },
+      {
+        "bbox": [
+          476,
+          36,
+          510,
+          101
+        ],
+        "confidence": 0.229,
+        "class": "shampoo bottle",
+        "product_name": "Sensodyne Toothpaste"
+      },
+      {
+        "bbox": [
+          68,
+          34,
+          101,
+          102
+        ],
+        "confidence": 0.227,
+        "class": "body wash",
+        "product_name": "Aveeno Lotion"
+      },
+      {
+        "bbox": [
+          85,
+          509,
+          101,
+          566
+        ],
+        "confidence": 0.225,
+        "class": "body wash",
+        "product_name": "Colgate Toothpaste"
+      },
+      {
+        "bbox": [
+          352,
+          221,
+          376,
+          275
+        ],
+        "confidence": 0.222,
+        "class": "body wash",
+        "product_name": "Dove Body Wash"
+      },
+      {
+        "bbox": [
+          455,
+          427,
+          474,
+          483
+        ],
+        "confidence": 0.221,
+        "class": "body wash",
+        "product_name": "Dove Body Wash"
+      },
+      {
+        "bbox": [
+          540,
+          36,
+          571,
+          101
+        ],
+        "confidence": 0.221,
+        "class": "shampoo bottle",
+        "product_name": "Sensodyne Toothpaste"
+      },
+      {
+        "bbox": [
+          293,
+          122,
+          322,
+          192
+        ],
+        "confidence": 0.22,
+        "class": "body wash",
+        "product_name": "Degree Deodorant"
+      },
+      {
+        "bbox": [
+          540,
+          36,
+          571,
+          101
+        ],
+        "confidence": 0.22,
+        "class": "body wash",
+        "product_name": "Sensodyne Toothpaste"
+      },
+      {
+        "bbox": [
+          293,
+          122,
+          322,
+          193
+        ],
+        "confidence": 0.219,
+        "class": "shampoo bottle",
+        "product_name": "Old Spice"
+      },
+      {
+        "bbox": [
+          116,
+          510,
+          131,
+          566
+        ],
+        "confidence": 0.216,
+        "class": "body wash",
+        "product_name": "Sensodyne Toothpaste"
+      },
+      {
+        "bbox": [
+          242,
+          32,
+          265,
+          102
+        ],
+        "confidence": 0.215,
+        "class": "body wash",
+        "product_name": "Dove Bar Soap"
+      },
+      {
+        "bbox": [
+          68,
+          34,
+          102,
+          102
+        ],
+        "confidence": 0.212,
+        "class": "shampoo bottle",
+        "product_name": "Aveeno Lotion"
+      },
+      {
+        "bbox": [
+          320,
+          502,
+          336,
+          566
+        ],
+        "confidence": 0.211,
+        "class": "shampoo bottle",
+        "product_name": "Aveeno Lotion"
+      },
+      {
+        "bbox": [
+          86,
+          509,
+          101,
+          567
+        ],
+        "confidence": 0.211,
+        "class": "shampoo bottle",
+        "product_name": "Sensodyne Toothpaste"
+      },
+      {
+        "bbox": [
+          417,
+          299,
+          434,
+          353
+        ],
+        "confidence": 0.21,
+        "class": "body wash",
+        "product_name": "Crest Toothpaste"
+      },
+      {
+        "bbox": [
+          511,
+          216,
+          541,
+          274
+        ],
+        "confidence": 0.206,
+        "class": "shampoo bottle",
+        "product_name": "Colgate Toothpaste"
+      },
+      {
+        "bbox": [
+          221,
+          32,
+          243,
+          102
+        ],
+        "confidence": 0.202,
+        "class": "body wash",
+        "product_name": "Dove Body Wash"
+      },
+      {
+        "bbox": [
+          266,
+          31,
+          293,
+          102
+        ],
+        "confidence": 0.201,
+        "class": "body wash",
+        "product_name": "Dove Bar Soap"
+      },
+      {
+        "bbox": [
+          345,
+          427,
+          366,
+          483
+        ],
+        "confidence": 0.194,
+        "class": "shampoo bottle",
+        "product_name": "Aveeno Lotion"
+      },
+      {
+        "bbox": [
+          323,
+          427,
+          344,
+          483
+        ],
+        "confidence": 0.191,
+        "class": "shampoo bottle",
+        "product_name": "Aveeno Lotion"
+      },
+      {
+        "bbox": [
+          399,
+          298,
+          418,
+          353
+        ],
+        "confidence": 0.186,
+        "class": "body wash",
+        "product_name": "Crest Toothpaste"
+      },
+      {
+        "bbox": [
+          402,
+          218,
+          429,
+          275
+        ],
+        "confidence": 0.186,
+        "class": "body wash",
+        "product_name": "Dove Bar Soap"
+      },
+      {
+        "bbox": [
+          428,
+          218,
+          456,
+          274
+        ],
+        "confidence": 0.186,
+        "class": "shampoo bottle",
+        "product_name": "Dove Bar Soap"
+      },
+      {
+        "bbox": [
+          199,
+          33,
+          222,
+          102
+        ],
+        "confidence": 0.183,
+        "class": "shampoo bottle",
+        "product_name": "Dove Body Wash"
+      },
+      {
+        "bbox": [
+          282,
+          499,
+          299,
+          566
+        ],
+        "confidence": 0.182,
+        "class": "shampoo bottle",
+        "product_name": "Old Spice"
+      },
+      {
+        "bbox": [
+          101,
+          509,
+          116,
+          567
+        ],
+        "confidence": 0.181,
+        "class": "shampoo bottle",
+        "product_name": "Sensodyne Toothpaste"
+      },
+      {
+        "bbox": [
+          510,
+          434,
+          526,
+          483
+        ],
+        "confidence": 0.178,
+        "class": "body wash",
+        "product_name": "Dove Bar Soap"
+      },
+      {
+        "bbox": [
+          166,
+          33,
+          198,
+          102
+        ],
+        "confidence": 0.175,
+        "class": "body wash",
+        "product_name": "Pantene Shampoo"
+      },
+      {
+        "bbox": [
+          321,
+          302,
+          341,
+          353
+        ],
+        "confidence": 0.174,
+        "class": "body wash",
+        "product_name": "Sensodyne Toothpaste"
+      },
+      {
+        "bbox": [
+          320,
+          502,
+          336,
+          566
+        ],
+        "confidence": 0.168,
+        "class": "body wash",
+        "product_name": "Aveeno Lotion"
+      },
+      {
+        "bbox": [
+          199,
+          32,
+          222,
+          102
+        ],
+        "confidence": 0.165,
+        "class": "body wash",
+        "product_name": "Dove Body Wash"
+      },
+      {
+        "bbox": [
+          134,
+          33,
+          166,
+          102
+        ],
+        "confidence": 0.164,
+        "class": "body wash",
+        "product_name": "Pantene Shampoo"
+      },
+      {
+        "bbox": [
+          152,
+          513,
+          172,
+          566
+        ],
+        "confidence": 0.163,
+        "class": "body wash",
+        "product_name": "Crest Toothpaste"
+      },
+      {
+        "bbox": [
+          482,
+          216,
+          511,
+          274
+        ],
+        "confidence": 0.162,
+        "class": "shampoo bottle",
+        "product_name": "Dial Soap"
+      },
+      {
+        "bbox": [
+          68,
+          124,
+          102,
+          193
+        ],
+        "confidence": 0.161,
+        "class": "body wash",
+        "product_name": "Sensodyne Toothpaste"
+      },
+      {
+        "bbox": [
+          381,
+          304,
+          400,
+          353
+        ],
+        "confidence": 0.159,
+        "class": "body wash",
+        "product_name": "Crest Toothpaste"
+      },
+      {
+        "bbox": [
+          101,
+          509,
+          116,
+          566
+        ],
+        "confidence": 0.159,
+        "class": "body wash",
+        "product_name": "Sensodyne Toothpaste"
+      },
+      {
+        "bbox": [
+          134,
+          123,
+          167,
+          193
+        ],
+        "confidence": 0.158,
+        "class": "body wash",
+        "product_name": "Crest Toothpaste"
+      },
+      {
+        "bbox": [
+          366,
+          427,
+          388,
+          483
+        ],
+        "confidence": 0.158,
+        "class": "shampoo bottle",
+        "product_name": "Aveeno Lotion"
+      },
+      {
+        "bbox": [
+          273,
+          429,
+          296,
+          483
+        ],
+        "confidence": 0.154,
+        "class": "shampoo bottle",
+        "product_name": "Mane 'n Tail"
+      },
+      {
+        "bbox": [
+          410,
+          428,
+          433,
+          483
+        ],
+        "confidence": 0.153,
+        "class": "shampoo bottle",
+        "product_name": "Pantene Shampoo"
+      },
+      {
+        "bbox": [
+          454,
+          216,
+          482,
+          274
+        ],
+        "confidence": 0.151,
+        "class": "shampoo bottle",
+        "product_name": "Dove Bar Soap"
+      },
+      {
+        "bbox": [
+          102,
+          34,
+          135,
+          102
+        ],
+        "confidence": 0.15,
+        "class": "body wash",
+        "product_name": "Aveeno Lotion"
+      },
+      {
+        "bbox": [
+          101,
+          124,
+          134,
+          193
+        ],
+        "confidence": 0.147,
+        "class": "body wash",
+        "product_name": "Crest Toothpaste"
+      },
+      {
+        "bbox": [
+          526,
+          433,
+          547,
+          483
+        ],
+        "confidence": 0.145,
+        "class": "shampoo bottle",
+        "product_name": "Dial Soap"
+      },
+      {
+        "bbox": [
+          152,
+          512,
+          172,
+          566
+        ],
+        "confidence": 0.143,
+        "class": "shampoo bottle",
+        "product_name": "Crest Toothpaste"
+      },
+      {
+        "bbox": [
+          70,
+          436,
+          92,
+          483
+        ],
+        "confidence": 0.142,
+        "class": "body wash",
+        "product_name": "Degree Deodorant"
+      },
+      {
+        "bbox": [
+          299,
+          300,
+          319,
+          349
+        ],
+        "confidence": 0.141,
+        "class": "body wash",
+        "product_name": "Sensodyne Toothpaste"
+      },
+      {
+        "bbox": [
+          540,
+          216,
+          571,
+          275
+        ],
+        "confidence": 0.14,
+        "class": "shampoo bottle",
+        "product_name": "Colgate Toothpaste"
+      },
+      {
+        "bbox": [
+          173,
+          512,
+          193,
+          566
+        ],
+        "confidence": 0.14,
+        "class": "body wash",
+        "product_name": "Crest Toothpaste"
+      },
+      {
+        "bbox": [
+          430,
+          428,
+          455,
+          483
+        ],
+        "confidence": 0.134,
+        "class": "shampoo bottle",
+        "product_name": "Dove Body Wash"
+      },
+      {
+        "bbox": [
+          388,
+          427,
+          411,
+          483
+        ],
+        "confidence": 0.134,
+        "class": "shampoo bottle",
+        "product_name": "Pantene Shampoo"
+      },
+      {
+        "bbox": [
+          511,
+          216,
+          541,
+          275
+        ],
+        "confidence": 0.133,
+        "class": "body wash",
+        "product_name": "Colgate Toothpaste"
+      },
+      {
+        "bbox": [
+          102,
+          34,
+          135,
+          102
+        ],
+        "confidence": 0.127,
+        "class": "shampoo bottle",
+        "product_name": "Pantene Shampoo"
+      },
+      {
+        "bbox": [
+          259,
+          501,
+          280,
+          566
+        ],
+        "confidence": 0.126,
+        "class": "shampoo bottle",
+        "product_name": "Old Spice"
+      },
+      {
+        "bbox": [
+          194,
+          513,
+          215,
+          566
+        ],
+        "confidence": 0.125,
+        "class": "body wash",
+        "product_name": "Secret Deodorant"
+      },
+      {
+        "bbox": [
+          341,
+          302,
+          360,
+          353
+        ],
+        "confidence": 0.124,
+        "class": "body wash",
+        "product_name": "Sensodyne Toothpaste"
+      },
+      {
+        "bbox": [
+          454,
+          216,
+          482,
+          274
+        ],
+        "confidence": 0.121,
+        "class": "body wash",
+        "product_name": "Dove Bar Soap"
+      },
+      {
+        "bbox": [
+          506,
+          218,
+          521,
+          274
+        ],
+        "confidence": 0.117,
+        "class": "shampoo bottle",
+        "product_name": "Colgate Toothpaste"
+      },
+      {
+        "bbox": [
+          388,
+          427,
+          410,
+          483
+        ],
+        "confidence": 0.116,
+        "class": "body wash",
+        "product_name": "Aveeno Lotion"
+      },
+      {
+        "bbox": [
+          482,
+          216,
+          511,
+          274
+        ],
+        "confidence": 0.116,
+        "class": "body wash",
+        "product_name": "Dial Soap"
+      },
+      {
+        "bbox": [
+          283,
+          502,
+          299,
+          567
+        ],
+        "confidence": 0.112,
+        "class": "body wash",
+        "product_name": "Mane 'n Tail"
+      },
+      {
+        "bbox": [
+          445,
+          40,
+          458,
+          59
+        ],
+        "confidence": 0.111,
+        "class": "shampoo bottle",
+        "product_name": "Aveeno Lotion"
+      },
+      {
+        "bbox": [
+          412,
+          513,
+          436,
+          566
+        ],
+        "confidence": 0.11,
+        "class": "shampoo bottle",
+        "product_name": "Pantene Shampoo"
+      },
+      {
+        "bbox": [
+          434,
+          433,
+          455,
+          483
+        ],
+        "confidence": 0.109,
+        "class": "body wash",
+        "product_name": "Dove Body Wash"
+      },
+      {
+        "bbox": [
+          540,
+          216,
+          571,
+          275
+        ],
+        "confidence": 0.108,
+        "class": "body wash",
+        "product_name": "Colgate Toothpaste"
+      },
+      {
+        "bbox": [
+          173,
+          512,
+          193,
+          566
+        ],
+        "confidence": 0.108,
+        "class": "shampoo bottle",
+        "product_name": "Secret Deodorant"
+      },
+      {
+        "bbox": [
+          237,
+          503,
+          258,
+          567
+        ],
+        "confidence": 0.107,
+        "class": "shampoo bottle",
+        "product_name": "Degree Deodorant"
+      },
+      {
+        "bbox": [
+          428,
+          218,
+          456,
+          275
+        ],
+        "confidence": 0.107,
+        "class": "body wash",
+        "product_name": "Dove Bar Soap"
+      },
+      {
+        "bbox": [
+          361,
+          303,
+          380,
+          353
+        ],
+        "confidence": 0.107,
+        "class": "body wash",
+        "product_name": "Sensodyne Toothpaste"
+      },
+      {
+        "bbox": [
+          366,
+          427,
+          388,
+          483
+        ],
+        "confidence": 0.105,
+        "class": "body wash",
+        "product_name": "Aveeno Lotion"
+      },
+      {
+        "bbox": [
+          194,
+          513,
+          215,
+          567
+        ],
+        "confidence": 0.103,
+        "class": "shampoo bottle",
+        "product_name": "Secret Deodorant"
+      },
+      {
+        "bbox": [
+          262,
+          501,
+          280,
+          522
+        ],
+        "confidence": 0.1,
+        "class": "shampoo bottle",
+        "product_name": "Colgate Toothpaste"
+      },
+      {
+        "bbox": [
+          166,
+          33,
+          198,
+          102
+        ],
+        "confidence": 0.097,
+        "class": "shampoo bottle",
+        "product_name": "Dove Body Wash"
+      },
+      {
+        "bbox": [
+          387,
+          513,
+          412,
+          567
+        ],
+        "confidence": 0.093,
+        "class": "shampoo bottle",
+        "product_name": "Pantene Shampoo"
+      },
+      {
+        "bbox": [
+          337,
+          501,
+          361,
+          566
+        ],
+        "confidence": 0.088,
+        "class": "shampoo bottle",
+        "product_name": "Aveeno Lotion"
+      },
+      {
+        "bbox": [
+          549,
+          434,
+          569,
+          483
+        ],
+        "confidence": 0.086,
+        "class": "body wash",
+        "product_name": "Dial Soap"
+      },
+      {
+        "bbox": [
+          469,
+          296,
+          490,
+          378
+        ],
+        "confidence": 0.083,
+        "class": "toothpaste",
+        "product_name": "Secret Deodorant"
+      },
+      {
+        "bbox": [
+          410,
+          428,
+          433,
+          483
+        ],
+        "confidence": 0.079,
+        "class": "body wash",
+        "product_name": "Pantene Shampoo"
+      },
+      {
+        "bbox": [
+          281,
+          304,
+          300,
+          353
+        ],
+        "confidence": 0.076,
+        "class": "body wash",
+        "product_name": "Sensodyne Toothpaste"
+      },
+      {
+        "bbox": [
+          215,
+          513,
+          236,
+          566
+        ],
+        "confidence": 0.075,
+        "class": "body wash",
+        "product_name": "Degree Deodorant"
+      },
+      {
+        "bbox": [
+          215,
+          513,
+          236,
+          567
+        ],
+        "confidence": 0.074,
+        "class": "shampoo bottle",
+        "product_name": "Degree Deodorant"
+      },
+      {
+        "bbox": [
+          337,
+          501,
+          361,
+          566
+        ],
+        "confidence": 0.074,
+        "class": "body wash",
+        "product_name": "Aveeno Lotion"
+      },
+      {
+        "bbox": [
+          250,
+          428,
+          274,
+          483
+        ],
+        "confidence": 0.073,
+        "class": "shampoo bottle",
+        "product_name": "Old Spice"
+      },
+      {
+        "bbox": [
+          490,
+          296,
+          509,
+          376
+        ],
+        "confidence": 0.072,
+        "class": "toothpaste",
+        "product_name": "Secret Deodorant"
+      },
+      {
+        "bbox": [
+          93,
+          41,
+          104,
+          57
+        ],
+        "confidence": 0.071,
+        "class": "shampoo bottle",
+        "product_name": "Aveeno Lotion"
+      },
+      {
+        "bbox": [
+          93,
+          428,
+          126,
+          483
+        ],
+        "confidence": 0.066,
+        "class": "shampoo bottle",
+        "product_name": "Degree Deodorant"
+      },
+      {
+        "bbox": [
+          242,
+          500,
+          260,
+          516
+        ],
+        "confidence": 0.066,
+        "class": "shampoo bottle",
+        "product_name": "Colgate Toothpaste"
+      },
+      {
+        "bbox": [
+          137,
+          427,
+          169,
+          483
+        ],
+        "confidence": 0.065,
+        "class": "shampoo bottle",
+        "product_name": "Old Spice"
+      },
+      {
+        "bbox": [
+          362,
+          501,
+          386,
+          566
+        ],
+        "confidence": 0.063,
+        "class": "shampoo bottle",
+        "product_name": "Aveeno Lotion"
+      },
+      {
+        "bbox": [
+          157,
+          503,
+          177,
+          522
+        ],
+        "confidence": 0.063,
+        "class": "shampoo bottle",
+        "product_name": "Colgate Toothpaste"
+      },
+      {
+        "bbox": [
+          436,
+          513,
+          461,
+          566
+        ],
+        "confidence": 0.06,
+        "class": "shampoo bottle",
+        "product_name": "Pantene Shampoo"
+      },
+      {
+        "bbox": [
+          262,
+          304,
+          280,
+          353
+        ],
+        "confidence": 0.054,
+        "class": "body wash",
+        "product_name": "Colgate Toothpaste"
+      },
+      {
+        "bbox": [
+          480,
+          219,
+          493,
+          256
+        ],
+        "confidence": 0.052,
+        "class": "shampoo bottle",
+        "product_name": "Dial Soap"
+      },
+      {
+        "bbox": [
+          115,
+          427,
+          147,
+          483
+        ],
+        "confidence": 0.052,
+        "class": "shampoo bottle",
+        "product_name": "Degree Deodorant"
+      },
+      {
+        "bbox": [
+          433,
+          303,
+          448,
+          353
+        ],
+        "confidence": 0.052,
+        "class": "body wash",
+        "product_name": "Crest Toothpaste"
+      }
+    ]
+  },
+  "Cereales": {
+    "total_detections": 16,
+    "catalog_total": 37,
+    "avg_confidence": 0.081,
+    "max_confidence": 0.128,
+    "min_confidence": 0.052,
+    "image_size": [
+      640,
+      640
+    ],
+    "detections": [
+      {
+        "bbox": [
+          83,
+          393,
+          171,
+          493
+        ],
+        "confidence": 0.128,
+        "class": "food box",
+        "product_name": "Frosted Flakes"
+      },
+      {
+        "bbox": [
+          83,
+          393,
+          173,
+          493
+        ],
+        "confidence": 0.105,
+        "class": "box",
+        "product_name": "Lucky Charms"
+      },
+      {
+        "bbox": [
+          480,
+          508,
+          564,
+          608
+        ],
+        "confidence": 0.102,
+        "class": "food box",
+        "product_name": "Cinnamon Toast Crunch"
+      },
+      {
+        "bbox": [
+          81,
+          508,
+          158,
+          608
+        ],
+        "confidence": 0.101,
+        "class": "food box",
+        "product_name": "Froot Loops"
+      },
+      {
+        "bbox": [
+          148,
+          509,
+          221,
+          608
+        ],
+        "confidence": 0.094,
+        "class": "food box",
+        "product_name": "Froot Loops"
+      },
+      {
+        "bbox": [
+          244,
+          161,
+          321,
+          255
+        ],
+        "confidence": 0.085,
+        "class": "food box",
+        "product_name": "Cheerios"
+      },
+      {
+        "bbox": [
+          162,
+          161,
+          241,
+          256
+        ],
+        "confidence": 0.085,
+        "class": "food box",
+        "product_name": "Cheerios"
+      },
+      {
+        "bbox": [
+          218,
+          512,
+          286,
+          608
+        ],
+        "confidence": 0.084,
+        "class": "food box",
+        "product_name": "Froot Loops"
+      },
+      {
+        "bbox": [
+          400,
+          395,
+          482,
+          493
+        ],
+        "confidence": 0.078,
+        "class": "food box",
+        "product_name": "Lucky Charms"
+      },
+      {
+        "bbox": [
+          476,
+          393,
+          563,
+          493
+        ],
+        "confidence": 0.074,
+        "class": "food box",
+        "product_name": "Lucky Charms"
+      },
+      {
+        "bbox": [
+          161,
+          38,
+          242,
+          136
+        ],
+        "confidence": 0.069,
+        "class": "food box",
+        "product_name": "Cheerios"
+      },
+      {
+        "bbox": [
+          401,
+          281,
+          481,
+          375
+        ],
+        "confidence": 0.068,
+        "class": "food box",
+        "product_name": "Frosted Flakes"
+      },
+      {
+        "bbox": [
+          483,
+          280,
+          567,
+          375
+        ],
+        "confidence": 0.064,
+        "class": "food box",
+        "product_name": "Frosted Flakes"
+      },
+      {
+        "bbox": [
+          412,
+          509,
+          490,
+          608
+        ],
+        "confidence": 0.056,
+        "class": "food box",
+        "product_name": "Cinnamon Toast Crunch"
+      },
+      {
+        "bbox": [
+          289,
+          511,
+          356,
+          608
+        ],
+        "confidence": 0.055,
+        "class": "food box",
+        "product_name": "Cinnamon Toast Crunch"
+      },
+      {
+        "bbox": [
+          167,
+          281,
+          243,
+          376
+        ],
+        "confidence": 0.052,
+        "class": "food box",
+        "product_name": "Cheerios"
+      }
+    ]
+  }
+}

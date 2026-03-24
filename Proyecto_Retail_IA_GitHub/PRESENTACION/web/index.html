@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retail Vision AI - Bisontitos</title>
+  <meta name="description" content="Presentacion interactiva del proyecto Retail Vision AI - Equipo Bisontitos, Samsung Innovation Campus 2026">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="checkered-bg"></div>
+
+<!-- ===== FLOATING FOOD ITEMS with real images ===== -->
+
+<!-- APPLE: top-left, gets bitten after section 2 -->
+<div class="food-item floating" id="food-apple" style="top:6%;left:5%;width:110px;height:110px;"
+  data-pos-0="top:6%;left:5%"
+  data-pos-1="top:12%;left:78%"
+  data-pos-2="top:5%;left:4%"
+  data-pos-3="top:15%;left:82%"
+  data-pos-4="top:8%;left:6%"
+  data-pos-5="top:18%;left:80%"
+  data-pos-6="top:5%;left:5%"
+  data-pos-7="top:14%;left:76%"
+  data-pos-8="top:10%;left:45%"
+  data-pos-9="top:8%;left:40%">
+  <img src="images/apple.png" alt="" class="original">
+  <div class="bite-overlay">
+    <img src="images/apple_bitten.png" alt="">
+  </div>
+</div>
+
+<!-- WAFER: top-right -->
+<div class="food-item floating-delay" id="food-wafer" style="top:8%;right:5%;width:120px;height:90px;"
+  data-pos-0="top:8%;right:5%"
+  data-pos-1="top:65%;right:4%"
+  data-pos-2="top:10%;right:6%"
+  data-pos-3="top:60%;right:5%"
+  data-pos-4="top:12%;right:4%"
+  data-pos-5="top:70%;right:6%"
+  data-pos-6="top:8%;right:5%"
+  data-pos-7="top:55%;right:4%"
+  data-pos-8="top:10%;right:40%"
+  data-pos-9="top:6%;right:35%">
+  <img src="images/wafer.png" alt="">
+</div>
+
+<!-- PUDDING: bottom-left -->
+<div class="food-item floating-delay2" id="food-pudding" style="bottom:12%;left:4%;width:110px;height:110px;"
+  data-pos-0="bottom:12%;left:4%"
+  data-pos-1="bottom:18%;left:75%"
+  data-pos-2="bottom:10%;left:5%"
+  data-pos-3="bottom:20%;left:78%"
+  data-pos-4="bottom:15%;left:3%"
+  data-pos-5="bottom:25%;left:80%"
+  data-pos-6="bottom:12%;left:4%"
+  data-pos-7="bottom:18%;left:72%"
+  data-pos-8="bottom:20%;left:35%"
+  data-pos-9="bottom:10%;left:30%">
+  <img src="images/pudding.png" alt="">
+</div>
+
+<!-- CREAM SODA: bottom-right -->
+<div class="food-item floating" id="food-soda" style="bottom:10%;right:4%;width:90px;height:120px;"
+  data-pos-0="bottom:10%;right:4%"
+  data-pos-1="bottom:8%;right:72%"
+  data-pos-2="bottom:12%;right:5%"
+  data-pos-3="bottom:10%;right:68%"
+  data-pos-4="bottom:15%;right:3%"
+  data-pos-5="bottom:6%;right:74%"
+  data-pos-6="bottom:10%;right:4%"
+  data-pos-7="bottom:12%;right:70%"
+  data-pos-8="bottom:15%;right:35%"
+  data-pos-9="bottom:8%;right:30%">
+  <img src="images/soda.png" alt="">
+</div>
+
+<!-- GUM: mid-left -->
+<div class="food-item floating-delay" id="food-gum" style="top:42%;left:2%;width:100px;height:70px;"
+  data-pos-0="top:42%;left:2%"
+  data-pos-1="top:35%;left:3%"
+  data-pos-2="top:50%;left:78%"
+  data-pos-3="top:38%;left:2%"
+  data-pos-4="top:48%;left:80%"
+  data-pos-5="top:40%;left:3%"
+  data-pos-6="top:52%;left:76%"
+  data-pos-7="top:36%;left:2%"
+  data-pos-8="top:50%;left:10%"
+  data-pos-9="top:42%;left:15%">
+  <img src="images/gum.png" alt="">
+</div>
+
+<!-- NOODLES: mid-right -->
+<div class="food-item floating-delay2" id="food-noodles" style="top:40%;right:2%;width:110px;height:90px;"
+  data-pos-0="top:40%;right:2%"
+  data-pos-1="top:48%;right:3%"
+  data-pos-2="top:36%;right:80%"
+  data-pos-3="top:52%;right:4%"
+  data-pos-4="top:38%;right:78%"
+  data-pos-5="top:45%;right:3%"
+  data-pos-6="top:35%;right:76%"
+  data-pos-7="top:50%;right:2%"
+  data-pos-8="top:35%;right:15%"
+  data-pos-9="top:40%;right:20%">
+  <svg viewBox="0 0 110 90">
+    <ellipse cx="55" cy="72" rx="44" ry="14" fill="#8D6E63"/>
+    <ellipse cx="55" cy="65" rx="44" ry="14" fill="#A1887F"/>
+    <path d="M18 52 Q30 30 55 26 Q80 30 92 52" stroke="#F1C40F" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M24 50 Q36 28 55 24 Q74 28 86 50" stroke="#E67E22" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M30 54 Q40 35 55 32 Q70 35 80 54" stroke="#F1C40F" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <line x1="50" y1="10" x2="50" y2="26" stroke="#5D4037" stroke-width="4" stroke-linecap="round"/>
+    <line x1="62" y1="8" x2="60" y2="26" stroke="#5D4037" stroke-width="4" stroke-linecap="round"/>
+    <text x="55" y="72" text-anchor="middle" font-family="Fredoka" font-size="10" fill="#FFF" font-weight="700">ramen</text>
+  </svg>
+</div>
+
+
+<!-- ===== PROGRESS + BUTTON ===== -->
+<div class="progress-track" id="progress-track"></div>
+<button class="btn-scroll" id="btn-scroll">
+  Siguiente <span class="chevron">&#9660;</span>
+</button>
+
+<!-- ===== FULLSCREEN BUTTON ===== -->
+<button class="btn-fullscreen" id="btn-fullscreen" title="Pantalla Completa">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3" />
+  </svg>
+</button>
+
+<!-- ===== BISONTE MASCOT ===== -->
+<div id="bison-mascot" class="bison-mascot-container">
+  <div class="bison-speech-bubble" id="bison-speech">¡Hola! Soy el asistente Bisontito.</div>
+  <svg class="bison-svg mascot" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <g class="bison-group">
+          <!-- Sombra -->
+          <ellipse cx="100" cy="180" rx="60" ry="8" fill="rgba(80,60,50,0.15)" />
+          <!-- Cuerpo -->
+          <g class="bison-body-group">
+              <!-- Patas traseras -->
+              <rect x="55" y="140" width="22" height="35" rx="8" fill="var(--bison-dark)" />
+              <rect x="123" y="140" width="22" height="35" rx="8" fill="var(--bison-dark)" />
+              <!-- Orejas -->
+              <g style="transform-origin: 35px 85px;" class="bison-ear-left">
+                  <ellipse cx="25" cy="85" rx="18" ry="8" fill="var(--bison-brown)" transform="rotate(-15 35 85)" />
+                  <ellipse cx="25" cy="85" rx="10" ry="4" fill="var(--bison-light)" transform="rotate(-15 35 85)" />
+              </g>
+              <g style="transform-origin: 165px 85px;" class="bison-ear-right">
+                  <ellipse cx="175" cy="85" rx="18" ry="8" fill="var(--bison-brown)" transform="rotate(15 165 85)" />
+                  <ellipse cx="175" cy="85" rx="10" ry="4" fill="var(--bison-light)" transform="rotate(15 165 85)" />
+              </g>
+              <!-- Cuerpo Principal -->
+              <path class="bison-body" d="M 45,75 Q 40,165 100,165 Q 160,165 155,75 A 55 55 0 0 0 45,75 Z" fill="var(--bison-brown)" />
+              <!-- Melena -->
+              <path d="M 35,65 C 35,10 165,10 165,65 C 175,85 155,115 135,120 C 130,123 70,123 65,120 C 45,115 25,85 35,65 Z" fill="var(--bison-fur)" />
+              <!-- Cuernos -->
+              <path d="M 50,55 Q 25,50 30,25 Q 35,40 60,45 Z" fill="var(--bison-horn)" />
+              <path d="M 150,55 Q 175,50 170,25 Q 165,40 140,45 Z" fill="var(--bison-horn)" />
+              <!-- Hocico -->
+              <ellipse cx="100" cy="125" rx="38" ry="28" fill="var(--bison-light)" />
+              <path d="M 85,115 Q 100,108 115,115 Q 112,132 100,132 Q 88,132 85,115 Z" fill="var(--bison-nose)" />
+              <!-- Ojos -->
+              <g class="bison-eyes">
+                  <circle cx="72" cy="92" r="7.5" fill="#4A3B32" />
+                  <circle cx="70" cy="89" r="2.5" fill="white" />
+                  <circle cx="128" cy="92" r="7.5" fill="#4A3B32" />
+                  <circle cx="126" cy="89" r="2.5" fill="white" />
+              </g>
+              <!-- Sonrisa -->
+              <path d="M 90,135 Q 100,145 110,135" fill="none" stroke="#4A3B32" stroke-width="3" stroke-linecap="round" />
+              <!-- Mejillas -->
+              <ellipse cx="60" cy="115" rx="10" ry="6" fill="#E74C3C" opacity="0.4" />
+              <ellipse cx="140" cy="115" rx="10" ry="6" fill="#E74C3C" opacity="0.4" />
+              <!-- Tuft -->
+              <path d="M 90,30 Q 100,15 110,30 Q 105,40 90,30 Z" fill="var(--bison-dark)" />
+              <path d="M 80,35 Q 90,20 100,35 Q 95,45 80,35 Z" fill="var(--bison-dark)" />
+          </g>
+      </g>
+  </svg>
+</div>
+
+
+<!-- ================= SECTION 0: COVER ================= -->
+<section id="sec-0">
+  <div class="cover-circle">
+    <p class="cover-label">Vision Computacional</p>
+    <h1 class="cover-title">Sistema de Inventario Automatizado para Retail</h1>
+    <p class="cover-sub">Clasificacion +<br>Regresion + Clustering</p>
+  </div>
+</section>
+
+
+<!-- ================= SECTION 1: OVERVIEW ================= -->
+<section id="sec-1">
+  <div class="slide-content">
+    <span class="section-tag">Equipo Bisontitos</span>
+    <h2 class="section-title">Nuestro Proyecto</h2>
+    <p class="section-text">
+      Creamos un sistema que usa <strong>camaras de vigilancia</strong> conectadas a una 
+      <strong>Raspberry Pi 5</strong> para contar automaticamente los productos en los estantes 
+      de una tienda. La IA ve los productos, los cuenta y actualiza el inventario sin que 
+      nadie tenga que hacerlo a mano.
+    </p>
+    <div class="stats-grid">
+      <div class="stat"><div class="stat-val">4</div><div class="stat-lbl">Camaras</div></div>
+      <div class="stat"><div class="stat-val">30 FPS</div><div class="stat-lbl">Tiempo Real</div></div>
+      <div class="stat"><div class="stat-val">13 TOPS</div><div class="stat-lbl">Poder de IA</div></div>
+      <div class="stat"><div class="stat-val">98.5%</div><div class="stat-lbl">Precision</div></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Como funciona paso a paso</div>
+      <div class="card-text">Las camaras toman fotos de los estantes. La Raspberry Pi analiza cada foto con inteligencia artificial, detecta cada producto, los cuenta, y si hay pocos, manda una alerta para que los repongan. Todo en tiempo real y sin necesidad de internet.</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= SECTION 2: YOLO MIGRATION ================= -->
+<section id="sec-2">
+  <div class="slide-content">
+    <span class="section-tag">Cambio Importante</span>
+    <h2 class="section-title">Migracion del Modelo de IA</h2>
+    <p class="section-text">
+      Cambiamos el "cerebro" de nuestro sistema. Antes usabamos dos modelos que no eran 
+      compatibles con nuestro hardware. Ahora usamos <strong>YOLOv8x</strong>, que funciona 
+      perfecto con la Raspberry Pi y su chip de IA Hailo-8L.
+    </p>
+    <div class="vs-container">
+      <div class="vs-box old">
+        <div class="vs-label">Antes</div>
+        <div class="vs-value">YOLO v11</div>
+        <div class="vs-detail">+ YOLO-World v2</div>
+        <div class="vs-detail">No compatible con Hailo-8L</div>
+      </div>
+      <div class="vs-arrow">&#10140;</div>
+      <div class="vs-box new">
+        <div class="vs-label">Ahora</div>
+        <div class="vs-value">YOLOv8x</div>
+        <div class="vs-detail">Compatible con todo</div>
+        <div class="vs-detail">96.8% precision</div>
+      </div>
+    </div>
+    <div class="card orange">
+      <div class="card-title">Por que cambiamos</div>
+      <div class="card-text">Los modelos anteriores no podian convertirse al formato INT8 que necesita el chip Hailo-8L de la Raspberry Pi. YOLOv8x si puede hacerlo, y ademas tiene una comunidad enorme que lo soporta.</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= SECTION 3: GODMODE DETECTOR ================= -->
+<section id="sec-3">
+  <div class="slide-content">
+    <span class="section-tag">Deteccion Maxima</span>
+    <h2 class="section-title">GodMode Detector v3.0</h2>
+    <p class="section-text">
+      Creamos un sistema que detecta <strong>absolutamente todos los productos</strong> en el 
+      estante, incluso los que estan en sombra o mal iluminados. Funciona en 4 pasos:
+    </p>
+    <div class="pipeline">
+      <div class="pipe-step">
+        <div class="pipe-num">1</div>
+        <div class="pipe-info">
+          <h4>Mejora de Imagen (CLAHE)</h4>
+          <p>Corrige la iluminacion automaticamente para que los productos oscuros se vean claros.</p>
+        </div>
+      </div>
+      <div class="pipe-step">
+        <div class="pipe-num blue">2</div>
+        <div class="pipe-info">
+          <h4>Deteccion en Alta Resolucion</h4>
+          <p>Analiza la imagen a 960 pixeles con sensibilidad al maximo para no perder ningun producto.</p>
+        </div>
+      </div>
+      <div class="pipe-step">
+        <div class="pipe-num green">3</div>
+        <div class="pipe-info">
+          <h4>Traduccion Inteligente de Clases</h4>
+          <p>Convierte lo que detecta (ej: "bottle") a nombres que un empleado entienda (ej: "Botella/Bebida").</p>
+        </div>
+      </div>
+      <div class="pipe-step">
+        <div class="pipe-num orange">4</div>
+        <div class="pipe-info">
+          <h4>Analisis del Estante</h4>
+          <p>Calcula cuanto espacio ocupa cada producto, detecta zonas vacias y genera alertas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= SECTION 4: ENSEMBLE ================= -->
+<section id="sec-4">
+  <div class="slide-content">
+    <span class="section-tag">Maxima Precision</span>
+    <h2 class="section-title">3 Modelos Trabajando Juntos</h2>
+    <p class="section-text">
+      En vez de confiar en un solo modelo, usamos <strong>tres modelos diferentes</strong> 
+      y combinamos sus respuestas. Es como pedir tres opiniones de expertos y quedarse 
+      con la mejor respuesta.
+    </p>
+    <div class="stats-grid">
+      <div class="stat"><div class="stat-val" style="color:#2980B9">96.8%</div><div class="stat-lbl">YOLO11x</div></div>
+      <div class="stat"><div class="stat-val" style="color:#E74C3C">95.2%</div><div class="stat-lbl">RT-DETR</div></div>
+      <div class="stat"><div class="stat-val" style="color:#27AE60">97.1%</div><div class="stat-lbl">RF-DETR</div></div>
+      <div class="stat"><div class="stat-val" style="color:#F1C40F">98.5%</div><div class="stat-lbl">Combinados</div></div>
+    </div>
+    <div class="card blue">
+      <div class="card-title">Weighted Boxes Fusion (WBF)</div>
+      <div class="card-text">Toma las detecciones de los 3 modelos y las combina. Si dos modelos ven el mismo producto, sube la confianza. Si solo uno lo ve, lo revisa con mas cuidado. Resultado: 98.5% de precision en estantes llenos.</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= SECTION 5: CLASSIFICATION FIX ================= -->
+<section id="sec-5">
+  <div class="slide-content">
+    <span class="section-tag">Bug Solucionado</span>
+    <h2 class="section-title">Clasificacion que Si Funciona</h2>
+    <p class="section-text">
+      Teniamos un problema grave: el sistema confundia los productos. Unas papas las 
+      marcaba como cereal. Encontramos el error y lo arreglamos.
+    </p>
+    <div class="vs-container">
+      <div class="vs-box old">
+        <div class="vs-label">El Bug</div>
+        <div class="vs-value" style="font-size:1.1rem">ResNet18 sin entrenar</div>
+        <div class="vs-detail">Pesos aleatorios = clasificaba al azar</div>
+      </div>
+      <div class="vs-arrow">&#10140;</div>
+      <div class="vs-box new">
+        <div class="vs-label">La Solucion</div>
+        <div class="vs-value" style="font-size:1.1rem">Clases de YOLO directas</div>
+        <div class="vs-detail">Ya estan bien entrenadas</div>
+      </div>
+    </div>
+    <div class="card green">
+      <div class="card-title">Que aprendimos</div>
+      <div class="card-text">YOLO ya sabe distinguir entre una botella, una caja y una bolsa. No necesitabamos un segundo modelo. Simplemente traducimos "bottle" a "Botella/Bebida", "book" a "Caja/Cereal", etc. Problema resuelto.</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= SECTION 6: ML PIPELINE ================= -->
+<section id="sec-6">
+  <div class="slide-content">
+    <span class="section-tag">Machine Learning</span>
+    <h2 class="section-title">Requerimiento Especial</h2>
+    <p class="section-text">
+      ¿En qué parte exacta del proyecto aplicamos Clasificación, Regresión y Clustering? Aquí están los 3 puntos clave:
+    </p>
+
+    <div class="card blue" style="margin-bottom:12px;">
+      <div class="card-title">1. Clasificacion (YOLOv8x)</div>
+      <div class="card-text"><strong>¿Dónde se usa?</strong> En las <strong>cámaras y la IA (Raspberry Pi)</strong>. Es el algoritmo encargado de <em>diferenciar</em> un producto de otro basándose en las imágenes. Sabe cómo clasificar visualmente si esa forma verde en el estante es una lata de crema o una bolsa de papas.</div>
+    </div>
+
+    <div class="card" style="margin-bottom:12px;">
+      <div class="card-title">2. Regresion (Random Forest / XGBoost)</div>
+      <div class="card-text"><strong>¿Dónde se usa?</strong> En el <strong>motor de inventario oculto</strong>. Como la visión artificial solo ve la "cara" del producto, usamos modelos de regresión a partir del tamaño y sombra para "adivinar matemáticamente" el número exacto del stock apilado hacia el fondo.</div>
+    </div>
+
+    <div class="card orange" style="margin-bottom:10px;">
+      <div class="card-title">3. Clustering (K-Means)</div>
+      <div class="card-text" style="padding-bottom:10px;"><strong>¿Dónde se usa?</strong> En el <strong>sistema de alertas de ventas</strong>. Después de tener todo el inventario de días, este algoritmo agrupa los productos automáticamente según su nivel de ventas para dar consejos (clusters):</div>
+    </div>
+    <div class="cluster-row" style="margin-bottom:8px;">
+      <span class="cdot r"></span>
+      <span><strong>Alta rotacion:</strong> Se vende muy rápido, vigilar diario.</span>
+    </div>
+    <div class="cluster-row" style="margin-bottom:8px;">
+      <span class="cdot y"></span>
+      <span><strong>Estable:</strong> Venta normal, revisar semanalmente.</span>
+    </div>
+    <div class="cluster-row">
+      <span class="cdot g"></span>
+      <span><strong>Baja rotacion:</strong> Se mueve lento, hay riesgo de que caduque el producto.</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= SECTION 7: 3D + EDGE ================= -->
+<section id="sec-7">
+  <div class="slide-content">
+    <span class="section-tag">Tecnologia</span>
+    <h2 class="section-title">Demo 3D + Raspberry Pi 5</h2>
+    <p class="section-text">
+      Construimos una <strong>tienda virtual en 3D</strong> con Three.js donde puedes ver 
+      las camaras funcionando en tiempo real. Todo el procesamiento corre en el borde, 
+      sin necesidad de servidores en la nube.
+    </p>
+    <div class="stats-grid">
+      <div class="stat"><div class="stat-val">3D</div><div class="stat-lbl">Three.js</div></div>
+      <div class="stat"><div class="stat-val">RPi 5</div><div class="stat-lbl">Edge Computing</div></div>
+      <div class="stat"><div class="stat-val">INT8</div><div class="stat-lbl">Modelo Comprimido</div></div>
+    </div>
+    <div class="inline-img" style="text-align:center; box-shadow:none; background:transparent;">
+      <!-- Custom SVG Raspberry Pi -->
+      <svg viewBox="0 0 200 140" style="max-width:260px; display:inline-block; filter: drop-shadow(0 8px 20px rgba(0,0,0,0.15));">
+        <!-- Main Board -->
+        <rect x="20" y="20" width="160" height="100" rx="8" fill="#2E7D32" stroke="#1B5E20" stroke-width="2"/>
+        <!-- Mounting Holes -->
+        <circle cx="30" cy="30" r="4" fill="#F5E6D3"/>
+        <circle cx="170" cy="30" r="4" fill="#F5E6D3"/>
+        <circle cx="30" cy="110" r="4" fill="#F5E6D3"/>
+        <circle cx="170" cy="110" r="4" fill="#F5E6D3"/>
+        <!-- CPU Chip -->
+        <rect x="75" y="50" width="40" height="40" rx="4" fill="#212121"/>
+        <!-- Memory Chip -->
+        <rect x="130" y="45" width="25" height="30" rx="2" fill="#424242"/>
+        <!-- GPIO Pins -->
+        <rect x="25" y="25" width="120" height="10" fill="#1C1C1C"/>
+        <pattern id="pins" x="0" y="0" width="8" height="10" patternUnits="userSpaceOnUse">
+          <circle cx="4" cy="5" r="2" fill="#FFC107"/>
+        </pattern>
+        <rect x="25" y="25" width="120" height="10" fill="url(#pins)"/>
+        <!-- USB Ports -->
+        <rect x="160" y="70" width="25" height="40" rx="2" fill="#E0E0E0" stroke="#9E9E9E"/>
+        <line x1="165" y1="90" x2="180" y2="90" stroke="#9E9E9E" stroke-width="2"/>
+        <rect x="170" y="75" width="15" height="10" rx="1" fill="#212121"/>
+        <rect x="170" y="95" width="15" height="10" rx="1" fill="#1976D2"/> <!-- USB 3.0 -->
+        <!-- Ethernet Port -->
+        <rect x="160" y="25" width="30" height="40" rx="2" fill="#BDBDBD" stroke="#757575"/>
+        <rect x="175" y="35" width="15" height="20" rx="2" fill="#212121"/>
+        <!-- Micro HDMI -->
+        <rect x="30" y="115" width="20" height="12" rx="1" fill="#E0E0E0"/>
+        <rect x="60" y="115" width="20" height="12" rx="1" fill="#E0E0E0"/>
+        <!-- Power Type-C -->
+        <rect x="90" y="115" width="15" height="10" rx="2" fill="#424242"/>
+        <!-- Brand / Decor -->
+        <path d="M140 100 Q145 90 150 100 Q145 110 140 100" fill="#E91E63"/>
+        <circle cx="145" cy="98" r="4" fill="#F48FB1"/>
+        <text x="95" y="85" font-family="Fredoka" font-size="8" font-weight="bold" fill="#757575">RPi 5</text>
+      </svg>
+    </div>
+    <div class="card blue">
+      <div class="card-title">Raspberry Pi 5 + Hailo-8L AI HAT</div>
+      <div class="card-text">El chip Hailo-8L tiene 13 TOPS de poder de procesamiento. El modelo YOLO esta comprimido a formato INT8 y se ejecuta directamente en el chip, analizando video a 30 FPS sin internet.</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Dataset SKU-110K</div>
+      <div class="card-text">Entrenamos con mas de 11,000 imagenes reales de estantes con 1.7 millones de productos anotados. Es uno de los datasets de retail mas grandes del mundo.</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= SECTION 8: METRICS & GRAPHS ================= -->
+<section id="sec-8">
+  <div class="slide-content">
+    <span class="section-tag">Entrenamiento Real</span>
+    <h2 class="section-title">Evolución y Seguridad del Modelo</h2>
+    <p class="section-text">
+      ¿Cómo confirmamos que la IA va por buen camino? Durante el entrenamiento con nuestro
+      dataset SKU-110K, evaluamos continuamente sus tasas de acierto y confiabilidad analizando sus curvas de aprendizaje y certeza.
+    </p>
+
+    <!-- Graphs Container -->
+    <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-top: 10px;">
+      
+      <!-- Graph 1 -->
+      <div class="card" style="flex: 1; min-width: 300px; padding: 10px;">
+        <div class="card-title" style="font-size: 1rem; text-align: center;">Progreso de Aprendizaje</div>
+        <img src="images/training_progress.png" alt="Curva de Entrenamiento" style="width: 100%; border-radius: 8px;">
+        <p class="card-text" style="font-size: 0.85rem; margin-top: 8px;">
+          <strong>Avances:</strong> A lo largo de las épocas, el modelo aumenta rápidamente su nivel de detección (mAP), estabilizándose por encima del 98% en las versiones finales, aprendiendo a ver todos los items posibles.
+        </p>
+      </div>
+
+      <!-- Graph 2 -->
+      <div class="card orange" style="flex: 1; min-width: 300px; padding: 10px;">
+        <div class="card-title" style="font-size: 1rem; text-align: center;">Seguridad de Detección</div>
+        <img src="images/confidence_curve.png" alt="Curva de Confianza vs Recall" style="width: 100%; border-radius: 8px;">
+        <p class="card-text" style="font-size: 0.85rem; margin-top: 8px;">
+          <strong>Certeza Máxima:</strong> La curva muestra un "Recall" altísimo con nuestro umbral óptimo (0.42). Esto significa que <em>no se pierde de ver casi ningún producto (recall)</em> aunque le subamos la certeza requerida.
+        </p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= SECTION 9: CONCLUSION ================= -->
+<section id="sec-9">
+  <div class="footer-card">
+    <p class="footer-team">Equipo Bisontitos</p>
+    <p class="footer-sub">Samsung Innovation Campus 2026</p>
+    <br>
+    <p class="section-text" style="text-align:center;max-width:480px;margin:0 auto; font-size: 1.2rem; font-weight: 500; font-style: italic; line-height: 1.5;">
+      "Demostramos que la tecnología no siempre se trata de inventar algo nuevo, sino de aplicar la tecnología donde realmente importa."
+    </p>
+    <div class="stats-grid" style="max-width:400px;margin:24px auto 0;">
+      <div class="stat"><div class="stat-val">98.5%</div><div class="stat-lbl">Precision</div></div>
+      <div class="stat"><div class="stat-val">30</div><div class="stat-lbl">FPS</div></div>
+    </div>
+  </div>
+</section>
+
+
+<script src="app.js"></script>
+</body>
+</html>

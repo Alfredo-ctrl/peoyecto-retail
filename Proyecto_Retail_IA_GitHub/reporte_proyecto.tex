@@ -1,0 +1,120 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+
+% Configuracion de Margenes
+\geometry{left=2.5cm, right=2.5cm, top=3cm, bottom=3cm}
+
+% Colores Personalizados
+\definecolor{samsungblue}{HTML}{034EA2}
+\definecolor{lightgray}{gray}{0.95}
+
+% Configuracion de Codigo
+\lstset{
+    backgroundcolor=\color{lightgray},
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    captionpos=b,
+    commentstyle=\color{green!60!black},
+    keywordstyle=\color{blue},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    frame=single,
+}
+
+% Encabezado y Pie de Pagina
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\color{samsungblue}Retail Vision AI}
+\lhead{Reporte Técnico - Equipo Bisontitos}
+\cfoot{\thepage}
+
+% --- Portada ---
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vspace*{1.5cm}
+    {\Huge\bfseries\color{samsungblue} Retail Vision AI \par}
+    \vspace{0.5cm}
+    {\Large\itshape Sistema de Inventario Inteligente mediante Vision Computacional \par}
+    \vspace{2cm}
+    {\large Presentado por: \par}
+    \vspace{0.3cm}
+    {\Huge\bfseries Equipo Bisontitos \par}
+    \vspace{2cm}
+    \vfill
+    {\large Samsung Innovation Campus \par}
+    {\large 2026 \par}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section{Introducción}
+El proyecto \textbf{Retail Vision AI} es una solución integral diseñada para la automatización del control de inventarios en el sector retail. Utilizando tecnologías de vanguardia como \textit{Edge Computing} y \textit{Vision Artificial}, el sistema permite el monitoreo constante de estantes, la detección precisa de productos y la generación de alertas en tiempo real.
+
+El núcleo del sistema reside en una \textbf{Raspberry Pi 5} equipada con un \textbf{AI HAT Hailo-8L}, lo que permite realizar inferencias de redes neuronales profundas con un bajo consumo energético y alta velocidad (hasta 13 TOPS).
+
+\section{Arquitectura del Sistema}
+El flujo de datos del proyecto se divide en cuatro capas principales:
+\begin{enumerate}
+    \item \textbf{Capa de Captura:} Cámaras PTZ y Domo distribuidas estratégicamente en la tienda.
+    \item \textbf{Capa de Procesamiento (Edge):} Raspberry Pi 5 que gestiona la captura y el preprocesamiento de imágenes.
+    \item \textbf{Capa de Inteligencia Artificial:} Modelos YOLOv8/v11 para detección, ResNet para clasificación y algoritmos de Machine Learning para análisis.
+    \item \textbf{Capa de Visualización:} Interfaz web dinámica construida con Three.js que muestra el estado de la tienda en 3D.
+\end{enumerate}
+
+\section{Dataset SKU-110K}
+Para el entrenamiento y validación de los modelos de detección en ambientes de alta densidad (donde los productos están muy pegados), se utilizó el dataset \textbf{SKU-110K}. 
+\begin{itemize}
+    \item \textbf{Densidad:} Promedio de 147 objetos por imagen.
+    \item \textbf{Escala:} Más de 11,000 imágenes con 1.7 millones de bounding boxes.
+    \item \textbf{Desafío:} El modelo debe ser capaz de distinguir entre productos idénticos en estantes saturados, minimizando los falsos negativos.
+\end{itemize}
+
+\section{Implementación de Modelos}
+
+\subsection{Detección de Objetos (YOLOv8/World)}
+Se utiliza \textbf{YOLOv8x} (y versiones experimentales de YOLO-World v2) para localizar cada producto en el estante. El sistema implementa un \textit{Ensemble} con \textbf{WBF (Weighted Boxes Fusion)} para combinar las predicciones de distintos modelos, logrando precisiones cercanas al 98.5\% mAP en condiciones controladas.
+
+\subsection{Clasificación de Productos (SKU Identification)}
+Una vez detectado el objeto, el sistema utiliza un modelo de \textbf{Clasificación} basado en \textbf{ResNet18/50}. Mediante \textit{Transfer Learning}, se entrena al modelo para identificar SKUs específicos (ej: Cereales, Bebidas, Snacks) a partir de los recortes (\textit{crops}) generados por el detector.
+
+\subsection{Regresión de Stock}
+Debido a que las cámaras solo ven la "primera fila" de productos, se implementó un modelo de \textbf{Regresión} (Random Forest o XGBoost). Este modelo toma variables como:
+\begin{itemize}
+    \item Conteo de bounding boxes.
+    \item Área total ocupada.
+    \item Profundidad estimada del estante.
+\end{itemize}
+Con esto, el sistema estima cuántas unidades hay realmente en el estante, incluyendo las que están detrás de la primera fila.
+
+\subsection{Clustering de Comportamiento}
+Se aplica \textbf{K-Means Clustering} para agrupar los SKUs según su métrica de rotación:
+\begin{itemize}
+    \item \textbf{Cluster 0:} Alta rotación (requiere reabastecimiento diario).
+    \item \textbf{Cluster 1:} Estable (flujo de venta normal).
+    \item \textbf{Cluster 2:} Baja rotación (stock inmovilizado).
+\end{itemize}
+
+\section{Interfaz de Usuario (3D Demo)}
+La interfaz web utiliza un estilo \textbf{Dark Glassmorphism} para ofrecer una experiencia premium. El motor \textbf{Three.js} renderiza una tienda virtual donde el usuario puede:
+\begin{itemize}
+    \item Ver las cámaras en tiempo real.
+    \item Hacer clic en estantes para ver las detecciones AI.
+    \item Monitorear el estado de la Raspberry Pi (CPU, Temp, NPU).
+    \item Consultar el inventario automatizado.
+\end{itemize}
+
+\section{Conclusiones}
+El proyecto \textbf{Retail Vision AI} del \textbf{Equipo Bisontitos} demuestra que es posible implementar sistemas industriales de alta complejidad utilizando hardware accesible y optimizado. La combinación de modelos de detección densa con técnicas tradicionales de Machine Learning garantiza un sistema robusto, escalable y eficiente para el futuro del comercio inteligente.
+
+\end{document}

@@ -1,0 +1,114 @@
+# Configuracion central - Retail Shelf CV
+
+# Rutas de datos y pesos
+paths:
+  yolo_weights: "data/weights/yolov8x.pt"
+  classifier_weights: "data/weights/classifier.pth"
+  regressor_weights: "data/weights/regressor.joblib"
+  clustering_weights: "data/weights/clustering.joblib"
+  upload_folder: "data/raw/uploads"
+  results_folder: "data/processed/results"
+
+# GodMode Detection (v3)
+godmode_detection:
+  model: "data/weights/yolov8x.pt"
+  conf_threshold: 0.10
+  iou_threshold: 0.45
+  imgsz: 960
+  max_det: 300
+  clahe_enabled: true
+  clahe_clip: 3.0
+
+# Deteccion avanzada (UltimateShelfDetector)
+ultimate_detection:
+  quality_mode: "fast" # fast | balanced | maximum
+
+  # Modelos del ensemble (se cargan todos)
+  models:
+    - "data/weights/yolov8x.pt"
+
+  # Escalas de inferencia por modo
+  scales: [640]
+  conf_thresholds: [0.15]
+
+  # Seccionamiento de imagen
+  use_sections: false
+  n_sections: 3
+  section_overlap: 0.15
+
+  # WBF fusion
+  wbf_iou_threshold: 0.55
+  wbf_skip_box_threshold: 0.01
+
+  # Preprocesamiento
+  clahe_enabled: true
+  clahe_clip_limit: 3.0
+  denoise_enabled: false
+  perspective_enabled: true
+
+  # TTA
+  use_tta: false
+  max_detections: 300
+
+# Deteccion legacy (ShelfDetector)
+detection:
+  confidence_threshold: 0.25
+  iou_threshold: 0.45
+  max_detections: 100
+  image_size: 640
+
+# Clasificacion de productos
+classification:
+  num_classes: 8
+  class_names:
+    - "Cereal_A"
+    - "Cereal_B"
+    - "Bebida_A"
+    - "Bebida_B"
+    - "Snack_A"
+    - "Snack_B"
+    - "Lacteo_A"
+    - "Limpieza_A"
+  input_size: 224
+  backbone: "ensemble" # ensemble: ResNet50 + EfficientNet + MobileNet
+
+# Regresion de stock
+regression:
+  model_type: "ensemble" # ensemble: RF + GBM + XGBoost + LightGBM
+  n_estimators: 100
+  max_depth: 10
+  random_state: 42
+  features:
+    - "bbox_count"
+    - "total_width_px"
+    - "avg_height_px"
+    - "num_rows"
+    - "shelf_position"
+    - "avg_aspect_ratio"
+    - "coverage_ratio"
+    - "bbox_area_std"
+
+# Clustering
+clustering:
+  n_clusters: 3
+  random_state: 42
+  cluster_labels:
+    0: "Alta rotacion"
+    1: "Estable"
+    2: "Baja rotacion"
+  features:
+    - "avg_stock"
+    - "stock_variance"
+    - "low_stock_pct"
+    - "alert_frequency"
+
+# API
+api:
+  host: "0.0.0.0"
+  port: 5000
+  allowed_extensions:
+    - "png"
+    - "jpg"
+    - "jpeg"
+    - "bmp"
+    - "webp"

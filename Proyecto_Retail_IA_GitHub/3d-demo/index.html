@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Vision AI</title>
+    <meta name="description" content="Sistema de inventario automatico por vision computacional con YOLO-World v2, Raspberry Pi 5 y AI HAT Hailo-8L.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-orbit">
+                <div class="orbit-ring"></div>
+                <div class="orbit-ring r2"></div>
+                <div class="orbit-ring r3"></div>
+                <div class="orbit-dot"></div>
+            </div>
+            <h2 class="loading-title">Retail Vision AI</h2>
+            <p class="loading-subtitle">Inicializando tienda virtual y sistema de deteccion</p>
+            <div class="loading-bar"><div class="loading-bar-fill" id="loadingBarFill"></div></div>
+            <div class="loading-steps" id="loadingSteps">
+                <span class="load-step active" id="ls1">Construyendo tienda</span>
+                <span class="load-step" id="ls2">Posicionando camaras</span>
+                <span class="load-step" id="ls3">Cargando YOLO-World v2</span>
+                <span class="load-step" id="ls4">Sistema listo</span>
+            </div>
+        </div>
+    </div>
+    <header class="top-bar" id="topBar">
+        <div class="top-bar-left">
+            <div class="logo-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+            </div>
+            <div>
+                <h1 class="top-title">Retail Vision AI</h1>
+                <p class="top-subtitle">YOLO-World v2 + Raspberry Pi 5 + Hailo-8L</p>
+            </div>
+        </div>
+        <div class="top-bar-center">
+            <div class="live-indicator" id="liveIndicator"><span class="live-dot"></span><span>EN VIVO</span></div>
+            <div class="cam-counter" id="camCounter">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+                <span>4 Camaras Activas</span>
+            </div>
+        </div>
+        <div class="top-bar-right">
+            <button class="btn-icon" id="btnToggleDashboard" title="Dashboard">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+            </button>
+            <button class="btn-icon" id="btnToggleInventory" title="Inventario">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="M9 14l2 2 4-4"/></svg>
+            </button>
+            <button class="btn-icon" id="btnToggleRpi" title="Raspberry Pi">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="12" rx="2"/><path d="M8 20h8M12 16v4"/><circle cx="8" cy="10" r="1" fill="currentColor"/><circle cx="12" cy="10" r="1" fill="currentColor"/><circle cx="16" cy="10" r="1" fill="currentColor"/></svg>
+            </button>
+            <button class="btn-icon btn-random" id="btnRandomize" title="Aleatorizar Estantes">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12l-9-9-9 9M12 3v18"/></svg>
+            </button>
+            <button class="btn-icon btn-ai-summary" id="btnToggleAI" title="Resumen AI">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a4 4 0 014 4v1a4 4 0 01-8 0V6a4 4 0 014-4z"/><path d="M6 10v2a6 6 0 0012 0v-2"/><path d="M12 18v4M8 22h8"/></svg>
+            </button>
+            <button class="btn-icon" id="btnToggleInfo" title="Info del Proyecto">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+            </button>
+            <button class="btn-icon btn-scan" id="btnRunScan" title="Escaneo Completo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            </button>
+            <button class="btn-icon" id="btnResetCamera" title="Resetear Camara">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1018 0 9 9 0 00-18 0"/><path d="M3 12h4M12 3v4"/></svg>
+            </button>
+        </div>
+    </header>
+    <canvas id="canvas3d"></canvas>
+    <div class="hud-hint" id="hudHint">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5"/></svg>
+        Click en un estante para ver deteccion AI
+    </div>
+    <aside class="dashboard" id="dashboard">
+        <div class="panel-header"><h3>Dashboard en Tiempo Real</h3><button class="panel-close" id="dashClose">&times;</button></div>
+        <div class="panel-body">
+            <div class="kpi-grid">
+                <div class="kpi-card"><span class="kpi-label">Productos Detectados</span><span class="kpi-value kpi-green" id="kpiTotal">0</span></div>
+                <div class="kpi-card"><span class="kpi-label">Clases Unicas</span><span class="kpi-value kpi-blue" id="kpiSkus">0</span></div>
+                <div class="kpi-card"><span class="kpi-label">Ocupacion Promedio</span><span class="kpi-value kpi-purple" id="kpiOcc">0%</span></div>
+                <div class="kpi-card"><span class="kpi-label">mAP YOLO-World v2</span><span class="kpi-value kpi-cyan" id="kpiMap">54.4%</span></div>
+            </div>
+            <div class="section-block">
+                <h4>Vistas de Camaras</h4>
+                <div class="cam-feeds-grid" id="camFeedsGrid">
+                    <div class="cam-feed" data-cam="0"><div class="cam-feed-header"><span class="cam-dot cam-active"></span><span>CAM-01 Pasillo 1</span></div><div class="cam-feed-img"><img src="images/shelf_abarrotes.png" alt="Cam 1"><div class="cam-feed-overlay"></div></div><div class="cam-feed-stats"><span id="camStat0">15 productos</span><span>YOLO-World v2</span></div></div>
+                    <div class="cam-feed" data-cam="1"><div class="cam-feed-header"><span class="cam-dot cam-active"></span><span>CAM-02 Pasillo 2</span></div><div class="cam-feed-img"><img src="images/shelf_bebidas.png" alt="Cam 2"><div class="cam-feed-overlay"></div></div><div class="cam-feed-stats"><span id="camStat1">64 productos</span><span>YOLO-World v2</span></div></div>
+                    <div class="cam-feed" data-cam="2"><div class="cam-feed-header"><span class="cam-dot cam-active"></span><span>CAM-03 Pasillo 3</span></div><div class="cam-feed-img"><img src="images/shelf_snacks.png" alt="Cam 3"><div class="cam-feed-overlay"></div></div><div class="cam-feed-stats"><span id="camStat2">0 productos</span><span>YOLO-World v2</span></div></div>
+                    <div class="cam-feed" data-cam="3"><div class="cam-feed-header"><span class="cam-dot cam-active"></span><span>CAM-04 Perimetral</span></div><div class="cam-feed-img"><img src="images/shelf_limpieza.png" alt="Cam 4"><div class="cam-feed-overlay"></div></div><div class="cam-feed-stats"><span id="camStat3">42 productos</span><span>YOLO-World v2</span></div></div>
+                </div>
+            </div>
+            <div class="section-block">
+                <h4>Pipeline de Deteccion</h4>
+                <div class="ensemble-flow">
+                    <div class="ens-step"><div class="ens-icon ens-yolo">Y11</div><span>YOLO-World v2</span><small>mAP 54.4%</small></div>
+                    <div class="ens-arrow">&rarr;</div>
+                    <div class="ens-step"><div class="ens-icon ens-nms">NMS</div><span>Non-Max</span><small>IoU 0.35</small></div>
+                    <div class="ens-arrow">&rarr;</div>
+                    <div class="ens-step"><div class="ens-icon ens-post">SA</div><span>Shelf-Aware</span><small>Post-proc</small></div>
+                    <div class="ens-arrow">&rarr;</div>
+                    <div class="ens-step ens-final"><div class="ens-icon ens-inv">INV</div><span>Inventario</span><small>Auto-update</small></div>
+                </div>
+            </div>
+            <div class="section-block">
+                <h4>Alertas Recientes</h4>
+                <div class="alerts-list" id="alertsList"></div>
+            </div>
+        </div>
+    </aside>
+    <aside class="inventory-panel" id="inventoryPanel">
+        <div class="panel-header"><h3>Inventario en Tiempo Real</h3><button class="panel-close" id="inventoryClose">&times;</button></div>
+        <div class="panel-body">
+            <div class="inv-summary" id="invSummary">
+                <div class="inv-sum-card"><span class="inv-sum-num" id="invTotalProducts">0</span><span class="inv-sum-label">Total Unidades</span></div>
+                <div class="inv-sum-card inv-sum-ok"><span class="inv-sum-num" id="invStockOk">0</span><span class="inv-sum-label">Stock OK</span></div>
+                <div class="inv-sum-card inv-sum-low"><span class="inv-sum-num" id="invStockLow">0</span><span class="inv-sum-label">Stock Bajo</span></div>
+                <div class="inv-sum-card inv-sum-out"><span class="inv-sum-num" id="invStockOut">0</span><span class="inv-sum-label">Agotados</span></div>
+            </div>
+            <div class="inv-scan-indicator"><div class="inv-scan-dot"></div><span id="invScanStatus">Escaneando continuamente</span><span class="inv-last-scan" id="invLastScan">Ultimo: --:--</span></div>
+            <div class="inv-table-wrap"><table class="inv-table" id="invTable"><thead><tr><th>Producto</th><th>Seccion</th><th>Qty</th><th>Max</th><th>Estado</th><th>Accion</th></tr></thead><tbody id="invTableBody"></tbody></table></div>
+            <div class="inv-alerts" id="invAlerts"><h4>Recomendaciones de Compra</h4><div class="inv-alerts-list" id="invAlertsList"></div></div>
+        </div>
+    </aside>
+    <aside class="rpi-panel" id="rpiPanel">
+        <div class="panel-header"><h3>Raspberry Pi 5 + AI HAT</h3><button class="panel-close" id="rpiClose">&times;</button></div>
+        <div class="panel-body">
+            <div class="rpi-device-visual">
+                <div class="rpi-board">
+                    <div class="rpi-chip"><span class="rpi-chip-label">BCM2712</span><div class="rpi-chip-glow"></div></div>
+                    <div class="rpi-hat"><span class="rpi-hat-label">Hailo-8L</span><div class="rpi-hat-led" id="rpiHatLed"></div></div>
+                    <div class="rpi-ports"><div class="rpi-port rpi-eth"></div><div class="rpi-port rpi-usb"></div><div class="rpi-port rpi-usb"></div><div class="rpi-port rpi-hdmi"></div></div>
+                    <div class="rpi-gpio"><div class="rpi-pin" id="rpiGpioLed"></div></div>
+                </div>
+            </div>
+            <div class="rpi-status-grid">
+                <div class="rpi-stat-card"><span class="rpi-stat-icon rpi-icon-cpu"></span><div><span class="rpi-stat-label">CPU</span><div class="rpi-stat-bar"><div class="rpi-stat-fill" id="rpiCpu" style="width:0%"></div></div><span class="rpi-stat-val" id="rpiCpuVal">0%</span></div></div>
+                <div class="rpi-stat-card"><span class="rpi-stat-icon rpi-icon-ram"></span><div><span class="rpi-stat-label">RAM</span><div class="rpi-stat-bar"><div class="rpi-stat-fill rpi-fill-blue" id="rpiRam" style="width:0%"></div></div><span class="rpi-stat-val" id="rpiRamVal">0%</span></div></div>
+                <div class="rpi-stat-card"><span class="rpi-stat-icon rpi-icon-temp"></span><div><span class="rpi-stat-label">Temp</span><div class="rpi-stat-bar"><div class="rpi-stat-fill rpi-fill-orange" id="rpiTemp" style="width:0%"></div></div><span class="rpi-stat-val" id="rpiTempVal">0C</span></div></div>
+                <div class="rpi-stat-card"><span class="rpi-stat-icon rpi-icon-npu"></span><div><span class="rpi-stat-label">NPU</span><div class="rpi-stat-bar"><div class="rpi-stat-fill rpi-fill-purple" id="rpiNpu" style="width:0%"></div></div><span class="rpi-stat-val" id="rpiNpuVal">0%</span></div></div>
+            </div>
+            <div class="section-block">
+                <h4>Conexiones de Camaras</h4>
+                <div class="rpi-cam-list" id="rpiCamList">
+                    <div class="rpi-cam-item"><div class="rpi-cam-dot rpi-cam-connected"></div><span class="rpi-cam-name">CAM-01 PTZ</span><span class="rpi-cam-status">Conectada</span><span class="rpi-cam-fps" id="rpiCamFps0">30 FPS</span></div>
+                    <div class="rpi-cam-item"><div class="rpi-cam-dot rpi-cam-connected"></div><span class="rpi-cam-name">CAM-02 Domo</span><span class="rpi-cam-status">Conectada</span><span class="rpi-cam-fps" id="rpiCamFps1">30 FPS</span></div>
+                    <div class="rpi-cam-item"><div class="rpi-cam-dot rpi-cam-connected"></div><span class="rpi-cam-name">CAM-03 PTZ</span><span class="rpi-cam-status">Conectada</span><span class="rpi-cam-fps" id="rpiCamFps2">30 FPS</span></div>
+                    <div class="rpi-cam-item"><div class="rpi-cam-dot rpi-cam-connected"></div><span class="rpi-cam-name">CAM-04 Domo</span><span class="rpi-cam-status">Conectada</span><span class="rpi-cam-fps" id="rpiCamFps3">30 FPS</span></div>
+                </div>
+            </div>
+            <div class="section-block">
+                <h4>Log del Modelo AI</h4>
+                <div class="rpi-log" id="rpiLog">
+                    <div class="rpi-log-entry">[INIT] Hailo-8L NPU inicializado</div>
+                    <div class="rpi-log-entry">[LOAD] YOLO-World v2 cargado (13 TOPS)</div>
+                    <div class="rpi-log-entry">[READY] Pipeline listo</div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <aside class="ai-panel" id="aiPanel">
+        <div class="panel-header panel-header-ai"><h3>Resumen AI en Tiempo Real</h3><button class="panel-close" id="aiClose">&times;</button></div>
+        <div class="panel-body">
+            <div class="ai-status-bar"><div class="ai-pulse"></div><span id="aiStatusText">Analizando inventario...</span></div>
+            <div class="ai-summary-content" id="aiSummaryContent"></div>
+        </div>
+    </aside>
+    <aside class="sidebar" id="sidebar">
+        <button class="sidebar-close" id="sidebarClose">&times;</button>
+        <div class="sidebar-content">
+            <div class="sidebar-header">
+                <div class="project-badge">Samsung Innovation Campus</div>
+                <h2>Vision Computacional para Retail</h2>
+                <p class="sidebar-desc">Sistema de inventario automatico mediante camaras de seguridad PTZ/Domo conectadas a una Raspberry Pi 5 con AI HAT (Hailo-8L). Deteccion de productos por IA con YOLO-World v2.</p>
+            </div>
+            <div class="info-section">
+                <h3>Objetivo</h3>
+                <p>Detectar, contar e identificar productos en estantes de tiendas retail usando camaras de seguridad CCTV conectadas a una Raspberry Pi 5 con Hailo-8L AI HAT. Las camaras toman fotos, la RPi procesa las imagenes, cuenta productos, actualiza el inventario y borra las imagenes procesadas.</p>
+            </div>
+            <div class="info-section">
+                <h3>Arquitectura del Sistema</h3>
+                <div class="arch-diagram">
+                    <div class="arch-node arch-cam">Camaras PTZ / Domo</div>
+                    <div class="arch-arrow-down"></div>
+                    <div class="arch-node arch-rpi">Raspberry Pi 5 + AI HAT</div>
+                    <div class="arch-arrow-down"></div>
+                    <div class="arch-node arch-model">YOLO-World v2 (Hailo NPU 13 TOPS)</div>
+                    <div class="arch-arrow-down"></div>
+                    <div class="arch-node arch-inv">Inventario + Alertas</div>
+                </div>
+            </div>
+            <div class="info-section">
+                <h3>Pipeline de Deteccion</h3>
+                <div class="pipeline-steps">
+                    <div class="pipeline-step"><span class="step-num">1</span><div><strong>YOLO-World v2</strong><small>Detector principal de ultima generacion. mAP 54.4% en COCO.</small></div></div>
+                    <div class="pipeline-step"><span class="step-num">2</span><div><strong>NMS + IoU Filtering</strong><small>Non-Maximum Suppression con IoU 0.35 para eliminar duplicados.</small></div></div>
+                    <div class="pipeline-step"><span class="step-num">3</span><div><strong>Post-procesamiento Shelf-Aware</strong><small>Analisis geometrico de estantes y deteccion de zonas vacias.</small></div></div>
+                    <div class="pipeline-step"><span class="step-num">4</span><div><strong>Actualizacion de Inventario</strong><small>Conteo automatico y alertas de stock bajo / agotado.</small></div></div>
+                </div>
+            </div>
+            <div class="info-section">
+                <h3>Dataset</h3>
+                <div class="training-stats">
+                    <div class="train-stat"><span class="train-num">11,743</span><span class="train-label">Imagenes SKU-110K</span></div>
+                    <div class="train-stat"><span class="train-num">1.7M+</span><span class="train-label">Bounding Boxes</span></div>
+                    <div class="train-stat"><span class="train-num">1280px</span><span class="train-label">Resolucion</span></div>
+                    <div class="train-stat"><span class="train-num">YOLO-World v2</span><span class="train-label">Modelo</span></div>
+                </div>
+            </div>
+            <div class="info-section">
+                <h3>Tecnologias</h3>
+                <div class="tech-tags">
+                    <span class="tech-tag tag-ai">YOLO-World v2</span>
+                    <span class="tech-tag tag-ai">Ultralytics</span>
+                    <span class="tech-tag tag-backend">Python</span>
+                    <span class="tech-tag tag-backend">OpenCV</span>
+                    <span class="tech-tag tag-backend">PyTorch</span>
+                    <span class="tech-tag tag-frontend">Three.js</span>
+                    <span class="tech-tag tag-tools">RPi5 + Hailo</span>
+                    <span class="tech-tag tag-tools">Docker</span>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal" id="modal">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-header">
+                <h2 id="modalTitle">Estante</h2>
+                <div class="modal-badges" id="modalBadges">
+                    <span class="modal-badge badge-det">Detecciones: <strong id="modalDetCount">0</strong></span>
+                    <span class="modal-badge badge-conf">Confianza: <strong id="modalConf">0%</strong></span>
+                    <span class="modal-badge badge-time">Tiempo: <strong id="modalTime">0s</strong></span>
+                    <span class="modal-badge badge-model">Modelo: <strong id="modalModel">YOLO-World v2</strong></span>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="image-comparison">
+                    <div class="comparison-tab-bar">
+                        <button class="comp-tab active" data-tab="detected" id="tabDetected">Con Deteccion AI</button>
+                        <button class="comp-tab" data-tab="original" id="tabOriginal">Original</button>
+                    </div>
+                    <div class="comparison-image-wrap">
+                        <img id="modalImageDetected" class="modal-image active" alt="Deteccion">
+                        <img id="modalImageOriginal" class="modal-image" alt="Original">
+                    </div>
+                </div>
+                <div class="modal-info-grid">
+                    <div class="modal-info-card"><span class="info-label">Detector</span><span class="info-value">YOLO-World v2</span></div>
+                    <div class="modal-info-card"><span class="info-label">Resolucion</span><span class="info-value" id="modalRes">1280px</span></div>
+                    <div class="modal-info-card"><span class="info-label">NMS</span><span class="info-value">IoU 0.35</span></div>
+                    <div class="modal-info-card"><span class="info-label">Conf. Min</span><span class="info-value">0.08</span></div>
+                </div>
+                <div class="modal-products"><h4>Productos Detectados</h4><div class="product-list" id="productList"></div></div>
+            </div>
+        </div>
+    </div>
+    <div class="scan-overlay" id="scanOverlay">
+        <div class="scan-content">
+            <div class="scan-header"><div class="scan-icon-pulse"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="28" height="28"><circle cx="12" cy="12" r="3"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg></div><h3>Escaneo en Progreso</h3></div>
+            <div class="scan-progress"><div class="scan-bar"><div class="scan-bar-fill" id="scanBarFill"></div></div><span class="scan-percent" id="scanPercent">0%</span></div>
+            <div class="scan-cam-status" id="scanCamStatus">
+                <div class="scan-cam" id="scanCam0"><span class="sc-dot"></span> CAM-01: Esperando</div>
+                <div class="scan-cam" id="scanCam1"><span class="sc-dot"></span> CAM-02: Esperando</div>
+                <div class="scan-cam" id="scanCam2"><span class="sc-dot"></span> CAM-03: Esperando</div>
+                <div class="scan-cam" id="scanCam3"><span class="sc-dot"></span> CAM-04: Esperando</div>
+            </div>
+            <div class="scan-results" id="scanResults" style="display:none;">
+                <div class="scan-result-grid">
+                    <div class="sr-card"><span class="sr-num" id="srTotal">0</span><span class="sr-label">Total Productos</span></div>
+                    <div class="sr-card"><span class="sr-num sr-blue" id="srSkus">0</span><span class="sr-label">Clases</span></div>
+                    <div class="sr-card"><span class="sr-num sr-green" id="srOcc">0%</span><span class="sr-label">Ocupacion</span></div>
+                    <div class="sr-card"><span class="sr-num sr-orange" id="srTime">0s</span><span class="sr-label">Tiempo Total</span></div>
+                </div>
+                <button class="btn-scan-close" id="scanClose">Cerrar Escaneo</button>
+            </div>
+        </div>
+    </div>
+    <div class="shelf-label-3d" id="label3d_0" style="display:none;"><span class="label-dot"></span> Abarrotes</div>
+    <div class="shelf-label-3d" id="label3d_1" style="display:none;"><span class="label-dot"></span> Bebidas</div>
+    <div class="shelf-label-3d" id="label3d_2" style="display:none;"><span class="label-dot"></span> Snacks</div>
+    <div class="shelf-label-3d" id="label3d_3" style="display:none;"><span class="label-dot"></span> Limpieza</div>
+    <div class="shelf-label-3d" id="label3d_4" style="display:none;"><span class="label-dot"></span> Lacteos</div>
+    <div class="shelf-label-3d" id="label3d_5" style="display:none;"><span class="label-dot dot-blue"></span> Dulces</div>
+    <div class="shelf-label-3d" id="label3d_6" style="display:none;"><span class="label-dot dot-purple"></span> Higiene</div>
+    <div class="shelf-label-3d" id="label3d_7" style="display:none;"><span class="label-dot dot-orange"></span> Cereales</div>
+    <div class="cam-label-3d" id="camLabel0" style="display:none;">CAM-01</div>
+    <div class="cam-label-3d" id="camLabel1" style="display:none;">CAM-02</div>
+    <div class="cam-label-3d" id="camLabel2" style="display:none;">CAM-03</div>
+    <div class="cam-label-3d" id="camLabel3" style="display:none;">CAM-04</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
