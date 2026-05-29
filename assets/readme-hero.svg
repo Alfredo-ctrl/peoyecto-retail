@@ -1,0 +1,13 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Retail Vision Lab banner">
+  <rect width="1200" height="360" rx="34" fill="#101820"/>
+  <path d="M0 310 C180 220 310 395 510 286 C706 180 872 336 1200 170" stroke="#7bdff2" stroke-width="2" opacity=".28"/>
+  <path d="M0 58 H1200 M120 0 V360 M280 0 V360 M440 0 V360 M600 0 V360 M760 0 V360 M920 0 V360 M1080 0 V360" stroke="#f2aa4c" opacity=".08"/>
+  
+    <text x="70" y="128" fill="#f2aa4c" font-size="22" font-weight="800" letter-spacing="4">PEOYECTO-RETAIL</text>
+    <text x="70" y="192" fill="#f2aa4c" font-size="58" font-weight="900">Retail Vision Lab</text>
+    <foreignObject x="70" y="218" width="610" height="88">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="color:#f2aa4c;font:700 24px Segoe UI, Arial, sans-serif;line-height:1.25">A computer vision retail experiment for inventory classification and visual product understanding.</div>
+    </foreignObject>
+  <rect x="725" y="85" width="365" height="200" rx="14" fill="none" stroke="#f2aa4c" stroke-width="6"/><path d="M745 150 H1070 M745 220 H1070" stroke="#f2aa4c" stroke-width="6"/><rect x="765" y="104" width="52" height="38" rx="8" fill="#7bdff2"/><rect x="850" y="104" width="74" height="38" rx="8" fill="#f7f7f7"/><rect x="780" y="172" width="92" height="36" rx="8" fill="#f7f7f7"/><rect x="930" y="238" width="88" height="34" rx="8" fill="#7bdff2"/>
+  <text x="70" y="315" fill="#f2aa4c" font-size="18" font-weight="800" opacity=".72">Portfolio README identity 14</text>
+</svg>
