@@ -1,38 +1,15 @@
-<!-- portfolio:start -->
 <p align="center">
-  <img src="assets/readme-hero.svg" alt="Retail Vision Lab banner" width="100%" />
+  <img src="assets/readme-hero.svg" alt="Retail Vision AI & 3D Digital Twin Architectural Banner" width="100%" />
 </p>
 
-<h1 align="center">Retail Vision Lab</h1>
-
-<p align="center"><strong>A computer vision retail experiment for inventory classification and visual product understanding.</strong></p>
-
 <p align="center">
-<img alt="focus: computer vision" src="https://img.shields.io/badge/focus-computer%20vision-7bdff2?style=for-the-badge&labelColor=f2aa4c" />
-  <img alt="domain: retail" src="https://img.shields.io/badge/domain-retail-7bdff2?style=for-the-badge&labelColor=f2aa4c" />
-  <img alt="stack: python" src="https://img.shields.io/badge/stack-python-7bdff2?style=for-the-badge&labelColor=f2aa4c" />
+  <img src="https://img.shields.io/badge/DOMAIN-EDGE%20COMPUTER%20VISION-0F172A?style=flat-square&labelColor=05080F&color=0284C7" alt="DOMAIN: EDGE COMPUTER VISION" />
+  <img src="https://img.shields.io/badge/ENSEMBLE%20mAP-98.5%25%20WBF-0F172A?style=flat-square&labelColor=05080F&color=1E293B" alt="ENSEMBLE mAP: 98.5% WBF" />
+  <img src="https://img.shields.io/badge/HARDWARE-RPI5%20%2B%20HAILO-8L%2013%20TOPS-0F172A?style=flat-square&labelColor=05080F&color=1E293B" alt="HARDWARE: RPI5 + HAILO-8L 13 TOPS" />
+  <img src="https://img.shields.io/badge/SIMULATION-THREE.JS%20WEBGL-0F172A?style=flat-square&labelColor=05080F&color=1E293B" alt="SIMULATION: THREE.JS WEBGL" />
 </p>
-
-## Retail Lab Identity
-
-This project is framed as a store-floor vision lab: product images, classification logic, backend pieces, and deployment-ready structure.
-
-## What To Inspect
-
-The Python app, backend folders, configuration, data layout, Docker files, and the 3D demo area.
-
-## Run
-
-`pip install -r requirements.txt` then run `python app.py` or use the Docker files if preferred.
-
-## Portfolio Note
-
-This repository has its own visual identity inside the portfolio. The goal is that every project feels like a different product, not another copy of the same template.
-<!-- portfolio:end -->
 
 ---
-
-## Existing Project Notes
 
 # Retail Vision AI — Inventario Automatico por Vision Computacional
 
